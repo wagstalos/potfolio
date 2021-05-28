@@ -1,0 +1,51 @@
+
+.card {
+    background-color: #ffffff;
+    border-radius: 24px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 10px 15px -3px rgb(125 59 236 / 10%), 0 4px 6px -2px rgb(125 59 236 / 15%);
+    width: 300px;
+}
+
+.m-14{
+    margin: 14px;
+}
+
+.tag {
+    margin-left: 20px;
+    padding: 0 15px;
+    line-height: 22px;
+    border-radius: 1px solid;
+    background-color: rgba(15, 204, 206, .1);
+    color: #08b9bb;
+    ;
+    font-size: 14px;
+    margin-bottom: 12px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.botao {
+    background: #08b9bb;
+    border-radius: 15px;
+    border: 1px solid #08b9bb;
+    color: #ffffff;
+    font-size: 18px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 10px;
+    transition: all 0.5s;
+    margin: 10px;
+}
+
+.botao:hover {
+    border: 1px solid #08b9bb;
+    background-color: #ffffff;
+    color: #08b9bb;
+}
+
+.botao a {
+    color: azure;
+}

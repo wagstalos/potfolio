@@ -1,0 +1,56 @@
+.icon-bg{
+    background-color: rgba(15, 204, 206, .1);
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+h1{
+    font-size: 3em;
+    margin-block-start: 0.05em;
+    margin-block-end: 0.67em;
+}
+p, h4{
+    color: #444444;
+}
+.destaque{
+    /* color: #08b9bb; */
+    font-weight: 700;
+    margin-block-start: 0;
+}
+.m-50{
+    margin: 50px 0 50px 0;
+}
+.mr-50{
+    margin: 50px;
+    text-align: center;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.btn-download{
+    background-color: rgba(15, 204, 206, .1);
+    padding: 15px;
+    border-radius: 10px;
+    height: 44px;
+    color: #08b9bb;
+    font-weight: 700;
+    text-decoration: none;
+}
+.flex-between{
+    justify-content: space-between;;
+}
+.img-bio{
+    border: 3px #08b9bb solid;
+    border-radius: 100%;
+}
+.img-stats{
+    border-radius: 0;
+}
+@media only screen and (max-width: 600px) {
+    .flex-between {
+      height: 126px;
+  }
+  .mr-50 {
+    margin: 25px;
+  }
+  }
