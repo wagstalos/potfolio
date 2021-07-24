@@ -1,24 +1,32 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600&display=swap');
-body{
+body {
   font-family: 'Inter', sans-serif;
+  background-color: #F2F4F6;
 }
+
 img {
   width: 100%;
   border-radius: 24px;
 }
+
 .container {
   max-width: 900px;
   margin: 10px auto 0;
   padding: 10px;
+  background-color: #fff;
+  padding: 26px;
+  border-radius: 25px;
 }
+
 .flex {
   display: flex;
   align-items: center;
 }
-.text-center{
- text-align: center;
+
+.text-center {
+  text-align: center;
 }
+
 .flex-wrap {
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -32,10 +40,22 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
-  .flex-between {
+  /* .flex-between {
     height: 126px;
-}
-.mr-50 {
-  margin: 25px;
-}
+  } */
+  .mr-50 {
+    margin: 25px;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .destaque {
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+    font-size: 2.5em;
+  }
 }
