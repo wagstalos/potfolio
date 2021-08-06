@@ -40,6 +40,10 @@ li {
     text-align: center;
 }
 
+.mt-50 {
+    margin-top: 50px;
+}
+
 .mr-10 {
     margin-right: 10px;
 }
@@ -65,6 +69,7 @@ a {
 .img-bio {
     border: 3px #08b9bb solid;
     border-radius: 100%;
+    width: 150px;
 }
 
 .img-stats {
@@ -98,5 +103,4 @@ a {
         text-align: center;
         font-size: 2.5em;
     }
-    
 }

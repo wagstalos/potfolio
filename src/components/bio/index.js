@@ -1,11 +1,12 @@
-import React from "react";
 import "./style.css";
 import imageAvatar from "../../img/avatar.png";
+import Skills from "../skills";
+import Slider from "../slider";
 
 function Bio() {
   return (
     <div className="container">
-      <div className="flex-container">
+      <div className="flex flex-column-mb">
         <div className="mr-50">
           <img className="img-bio" src={imageAvatar} alt="Imagem do autor" />
           <h5>Redes socias</h5>
@@ -73,7 +74,6 @@ function Bio() {
 
         <div>
           <h4 className="destaque">Quem sou</h4>
-
           <h1>Wagner Paulo</h1>
           <p>
             Olá, sou Wagner Paulo, profissional da área Desenvolvimento{" "}
@@ -82,136 +82,68 @@ function Bio() {
             por tecnologias, trabalho com produção de sites, aplicativos, PWA e
             jogos digitais.
           </p>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SASS</li>
-            <li>Bootsratp </li>
-            <li>ReactJS</li>
-            <li>WordPress</li>
-            <li>Construct 2/3</li>
-          </ul>
-
-          <h5>Skills</h5>
-          <div className="flex flex-between flex-wrap">
-            <div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="icon-bg icon icon-tabler icon-tabler-brand-html5"
-                width="28"
-                height="28"
-                viewBox="0 0 24 24"
-                stroke-width="1"
-                stroke="#08b9bb"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
-                <path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="icon-bg icon icon-tabler icon-tabler-brand-css3"
-                width="28"
-                height="28"
-                viewBox="0 0 24 24"
-                stroke-width="1"
-                stroke="#08b9bb"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
-                <path d="M8.5 8h7l-4.5 4h4l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="icon-bg icon icon-tabler icon-tabler-brand-sass"
-                width="28"
-                height="28"
-                viewBox="0 0 24 24"
-                stroke-width="1"
-                stroke="#08b9bb"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <circle cx="12" cy="12" r="9" />
-                <path d="M12 10.523c2.46 -.826 4.002 -.826 4.002 -2.155c0 -1.366 -1.347 -1.366 -2.735 -1.366c-1.91 0 -3.352 .49 -4.537 1.748c-.848 .902 -1.027 2.449 -.153 3.307c.973 .956 3.206 1.789 2.884 3.493c-.233 1.235 -1.469 1.823 -2.617 1.202c-.782 -.424 -.454 -1.746 .626 -2.512s2.822 -.992 4.1 -.24c.98 .575 1.046 1.724 .434 2.193" />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class=" icon-bg icon icon-tabler icon-tabler-brand-javascript"
-                width="28"
-                height="28"
-                viewBox="0 0 24 24"
-                stroke-width="1"
-                stroke="#08b9bb"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
-                <path d="M7.5 8h3v8l-2 -1" />
-                <path d="M16.5 8h-2.5a0.5 .5 0 0 0 -.5 .5v3a0.5 .5 0 0 0 .5 .5h1.423a0.5 .5 0 0 1 .495 .57l-.418 2.93l-2 .5" />
-              </svg>
-            </div>
-            <div>
-              <a
-                className=""
-                href="curriculo_wagner.pdf"
-                download="curriculo_wagner.pdf"
-              >
-                <div className="flex btn-download">
-                  <div>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="icon icon-tabler icon-tabler-file-download"
-                      width="28"
-                      height="28"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="#08b9bb"
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                      <path d="M14 3v4a1 1 0 0 0 1 1h4" />
-                      <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
-                      <line x1="12" y1="11" x2="12" y2="17" />
-                      <polyline points="9 14 12 17 15 14" />
-                    </svg>
-                  </div>
-                  <div>{"Download CV "}</div>
-                </div>
-              </a>
-            </div>
-          </div>
         </div>
       </div>
-      <div className="flex-container flex-wrap m-50 ">
-        <div className="mr-10">
-          <img
-            className="img-stats"
-            src="https://camo.githubusercontent.com/7d732602e028285e90f6e7511544777bbbbd7db5e553b764b71e3e8a90650f16/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d7761677374616c6f73"
-            alt="Anurag's GitHub stats"
-            data-canonical-src="https://github-readme-stats.vercel.app/api?username=wagstalos"
-          />
-        </div>
 
-        <div>
-          <img
-            className="img-stats"
-            src="https://camo.githubusercontent.com/bd3e5aa786d946cd66a1ecfbfc4c4f4abb730d83dc8e1f09433422523115b22d/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d7761677374616c6f73266c61796f75743d636f6d70616374"
-            alt="Top Langs"
-            data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs/?username=wagstalos&amp;layout=compact"
-          />
+      <div>
+        <h3 className="mt-50">Skills</h3>
+        <Skills />
+
+        <h3 className="mt-50">Formação</h3>
+        <Slider />
+
+        <h3>Currículo</h3>
+        <div className="flex flex-between flex-wrap">
+          <div>
+            <a
+              className=""
+              href="curriculo_wagner.pdf"
+              download="curriculo_wagner.pdf"
+            >
+              <div className="flex btn-download">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-file-download"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#08b9bb"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                    <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+                    <line x1="12" y1="11" x2="12" y2="17" />
+                    <polyline points="9 14 12 17 15 14" />
+                  </svg>
+                </div>
+                <div>{"Download CV "}</div>
+              </div>
+            </a>
+          </div>
+          <div className="flex-container flex-wrap m-50 ">
+            <div className="mr-10">
+              <img
+                className="img-stats"
+                src="https://camo.githubusercontent.com/7d732602e028285e90f6e7511544777bbbbd7db5e553b764b71e3e8a90650f16/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d7761677374616c6f73"
+                alt="Anurag's GitHub stats"
+                data-canonical-src="https://github-readme-stats.vercel.app/api?username=wagstalos"
+              />
+            </div>
+
+            <div>
+              <img
+                className="img-stats"
+                src="https://camo.githubusercontent.com/bd3e5aa786d946cd66a1ecfbfc4c4f4abb730d83dc8e1f09433422523115b22d/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d7761677374616c6f73266c61796f75743d636f6d70616374"
+                alt="Top Langs"
+                data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs/?username=wagstalos&amp;layout=compact"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
