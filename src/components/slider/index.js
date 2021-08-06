@@ -48,7 +48,18 @@ export default function Slider() {
           />
         </SwiperSlide>
         <SwiperSlide>
-          <Card ano="2018-2019" curso="Front-end" escola="Treina Web" />
+          <Card
+            ano="2019-2020"
+            curso="English Course - Basic"
+            escola="Smile English"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Card
+            ano="2020-2020"
+            curso="React Native Programmer"
+            escola="Dev Samurai"
+          />
         </SwiperSlide>
       </Swiper>
     </div>
