@@ -6,11 +6,11 @@
 
 ## Descrição do Projeto
 
-<p align="center">Olá, sou Wagner Paulo, profissional da área Desenvolvimento Web e Games, formado em Design Gráfico (UNIP) e Desenvolvimento Jogos Digitais(ETEC). Apaixonado por tecnologias, trabalho com produção de sites, aplicativos, PWA e jogos digitais com foco para o ensino EaD.</p>
+<p align="center">Olá, sou Wagner Paulo, profissional da área Desenvolvimento Web e Games, formado em Design Gráfico (UNIP) e Desenvolvimento Jogos Digitais(ETEC). Apaixonado por tecnologias, trabalho com produção de sites, aplicativos, PWA e jogos digitais com foco para o ensino EaD, neste projeto eu criei um portfolio com minhas skills e mostrando alguns projetos que realizei.</p>
 
 <h1 align="center">
 <img src="https://img.shields.io/static/v1?label=Site&message=ReactJS&color=3498db&style=for-the-badge&logo="/>
-<img src="https://img.shields.io/static/v1?label=Status&message=Anadamento&color=f1c40f&style=for-the-badge&logo="/>
+<img src="https://img.shields.io/static/v1?label=Status&message=Andamento&color=f1c40f&style=for-the-badge&logo="/>
 </h1>
 
 ### Features
