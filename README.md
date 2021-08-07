@@ -22,9 +22,11 @@
 Para rodar você precisa usar
 
 #Swiper para o slide
+
 yarn add swiper
 
 #Sass
+
 yarn add sass
 
 As seguintes ferramentas foram usadas na construção do projeto:
