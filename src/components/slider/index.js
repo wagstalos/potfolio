@@ -17,8 +17,7 @@ export default function Slider() {
             pagination: true,
             slidesPerView: 1.1,
           },
-          // when window width is >= 768px
-          460: {
+          600: {
             slidesPerView: 3.1,
           },
         }}
@@ -60,6 +59,9 @@ export default function Slider() {
             curso="React Native Programmer"
             escola="Dev Samurai"
           />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Card ano="2020-2024" curso="React Native " escola="Dev Samurai" />
         </SwiperSlide>
       </Swiper>
     </div>

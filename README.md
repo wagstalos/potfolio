@@ -9,13 +9,22 @@
 
 <h1 align="center">
 <img src="https://img.shields.io/static/v1?label=Site&message=ReactJS&color=3498db&style=for-the-badge&logo="/>
-<img src="https://img.shields.io/static/v1?label=Status&message=Completo&color=2ecc71&style=for-the-badge&logo="/>
+<img src="https://img.shields.io/static/v1?label=Status&message=Anadamentod&color=2ecc71&style=for-the-badge&logo="/>
 </h1>
 
 ### Features
 
-- [x] publicar conteúdos por API
+- [x] Publicar conteúdos por JSON
+- [ ] Colocar um toggle para modo dark
+-[] Opção de inglês
 
+Para rodar você precisa usar 
+
+#Swiper para o slide
+yarn add swiper
+
+#Sass
+yarn add sass
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
