@@ -17,7 +17,7 @@ class Portfolio extends Component {
 
     return (
       <>
-        <div className="flex center">
+        <div className="flex center portfolio">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="icon icon-tabler icon-tabler-brand-apple-arcade"
@@ -39,7 +39,7 @@ class Portfolio extends Component {
           <h2 className="text-center">Meus projetos</h2>
         </div>
 
-        <div className="flex-container flex-wrap">
+        <div className="flex-container flex-wrap flex center">
           {posts.map((post) => (
             <div className="card" key={post.id}>
               <img src={post.img} alt={post.title} />
@@ -50,7 +50,7 @@ class Portfolio extends Component {
                 <p class="tag categoria">{post.categoria} </p>
               </div>
               <a className="botao" href={post.url}>
-                Veja mais{" "}
+                Veja mais
               </a>
             </div>
           ))}

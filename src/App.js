@@ -3,6 +3,7 @@ import "./App.css";
 
 import Portfolio from "./components/portfolio";
 import Bio from "./components/bio";
+import Footer from "./components/footer";
 // import Toggle from "./components/toggle";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       {/* <Toggle /> */}
       <Bio />
       <Portfolio />
+      <Footer />
     </>
   );
 }

@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600&display=swap');
+* {
+  padding: 0;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   background-color: #F5f5f5;
@@ -15,6 +19,10 @@ img {
   padding: 10px;
   /* background-color: #fff; */
   /* padding: 26px; */
+}
+
+.center {
+  margin: 0 auto;
 }
 
 .flex {
@@ -48,10 +56,14 @@ img {
   justify-content: center;
 }
 
+button {
+  border: #2f988f 1px solid;
+  padding: 5px 10px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 600px) {
-  /* .flex-between {
-    height: 126px;
-  } */
   .mr-50 {
     margin: 25px;
   }
@@ -69,5 +81,9 @@ img {
   }
   .flex-column-mb {
     flex-direction: column;
+  }
+  button {
+    margin: 0 auto;
+    display: flex;
   }
 }

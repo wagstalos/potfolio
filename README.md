@@ -22,9 +22,15 @@
 Para rodar você precisa usar
 
 #Swiper para o slide
+
 yarn add swiper
 
+#intl
+
+yarn add react-intl
+
 #Sass
+
 yarn add sass
 
 As seguintes ferramentas foram usadas na construção do projeto:

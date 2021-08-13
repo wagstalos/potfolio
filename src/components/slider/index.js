@@ -60,9 +60,6 @@ export default function Slider() {
             escola="Dev Samurai"
           />
         </SwiperSlide>
-        <SwiperSlide>
-          <Card ano="2020-2024" curso="React Native " escola="Dev Samurai" />
-        </SwiperSlide>
       </Swiper>
     </div>
   );

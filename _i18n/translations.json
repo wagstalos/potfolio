@@ -1,0 +1,10 @@
+{
+    "en-US": {
+        "Bem vindo!": "Welcome!",
+        "header.bemvindousuario": "Welcome {usuario}"
+    },
+    "pt-BR": {
+        "Bem vindo!": "Bem vindo!",
+        "header.bemvindousuario": "Bem vindo {usuario}!"
+    }
+}

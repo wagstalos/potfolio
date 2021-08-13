@@ -18,8 +18,13 @@ class Toggle extends React.Component {
   render() {
     return (
       <div>
+        <p>
+          {this.state.isToggleOn
+            ? "Olá, sou Wagner Paulo, profissional da área Desenvolvimento Web e Games , formado em Design Gráfico (UNIP) e Desenvolvimento de Jogos Digitais(ETEC). Apaixonado por tecnologias, trabalho com produção de sites, aplicativos, PWA e jogos digitais."
+            : "Hi, I'm Wagner Paulo, professional in the area of ​​Web and Games Development, graduated in Graphic Design (UNIP) and Digital Games Development (ETEC). Passionate about technologies, I work with the production of websites, applications, PWA and digital games."}
+        </p>
         <button onClick={this.handleClick}>
-          {this.state.isToggleOn ? "ingles" : "Português"}
+          {this.state.isToggleOn ? "Change English" : "Português"}
         </button>
       </div>
     );
