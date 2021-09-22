@@ -17,7 +17,7 @@
 
 - [x] Publicar conteúdos por JSON
 - [ ] Colocar um toggle para modo dark
-- [ ] Opção de inglês
+- [x] Opção de inglês
 
 Para rodar você precisa usar
 
