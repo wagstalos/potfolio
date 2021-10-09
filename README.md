@@ -24,6 +24,7 @@ Para rodar você precisa usar
 
 #Swiper para o slide
 
+<pre> teste </pre>
 yarn add swiper
 
 #intl
