@@ -63,7 +63,6 @@ a {
 
 .flex-between {
     justify-content: space-between;
-    ;
 }
 
 .img-bio {
@@ -75,6 +74,37 @@ a {
 .img-stats {
     border-radius: 0;
     margin-bottom: 20px;
+}
+
+.blob {
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    transform: scale(1);
+    animation: pulse-black 2s infinite;
+}
+
+.blob.blue {
+    background: rgba(52, 172, 224, 1);
+    box-shadow: 0 0 0 0 rgba(52, 172, 224, 1);
+    animation: pulse-blue 2s infinite;
+}
+
+@keyframes pulse-blue {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(52, 172, 224, 0.7);
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(52, 172, 224, 0);
+    }
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(52, 172, 224, 0);
+    }
 }
 
 @media only screen and (max-width: 600px) {

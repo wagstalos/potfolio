@@ -1,31 +1,25 @@
 import "./style.css";
-import imageAvatar from "../../img/avatar.png";
+import imageAvatar from "../../img/avatar.jpg";
 import Skills from "../skills";
 import Slider from "../slider";
 import Sociais from "../sociais";
 import Toogle from "../toggle";
+import Experience from "../experience";
 
 function Bio() {
   return (
     <div className="container">
       <div className="flex flex-column-mb">
         <div className="mr-50">
-          <img className="img-bio" src={imageAvatar} alt="Imagem do autor" />
+          <img className="img-bio blob blue" src={imageAvatar} alt="Imagem do autor" />
           <h5>Redes socias</h5>
-          <Sociais />
+            <Sociais />
         </div>
 
         <div>
           <h4 className="destaque">Quem sou</h4>
           <h1>Wagner Paulo</h1>
           <Toogle />
-          {/* <p>
-            Olá, sou Wagner Paulo, profissional da área Desenvolvimento{" "}
-            <strong>Web</strong> e <strong>Games</strong> , formado em Design
-            Gráfico (UNIP) e Desenvolvimento de Jogos Digitais(ETEC). Apaixonado
-            por tecnologias, trabalho com produção de sites, aplicativos, PWA e
-            jogos digitais.
-          </p> */}
         </div>
       </div>
 
@@ -89,6 +83,9 @@ function Bio() {
             </div>
           </div>
         </div>
+
+        <h3>Experiência</h3>
+        <Experience />
       </div>
     </div>
   );
