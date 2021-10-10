@@ -19,19 +19,19 @@
 - [ ] Colocar um toggle para modo dark
 - [x] Opção de inglês
 
+⚡ Installation
 Para rodar você precisa usar
 
 #Swiper para o slide
 
-yarn add swiper
-
-#intl
-
-yarn add react-intl
+<pre> yarn add swiper </pre>
 
 #Sass
+<pre>yarn add sass</pre>
 
-yarn add sass
+#react-chrono
+<pre>yarn add react-chrono</pre>
+https://github.com/prabhuignoto/react-chrono?ref=madewithreactjs.com
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
