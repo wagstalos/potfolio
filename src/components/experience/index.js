@@ -14,10 +14,10 @@ export default function Experience() {
     cardDetailedText: "Já era responsável pela parte de desenvolvimento de games da empresa, como primeira mudança resolvi mudar o desenvolvimento de games antes em Flash para HTML5! ",
   
     },{
-      title: "Janeiro 2015",
+      title: "Jan 2015",
       cardTitle: "Lead de Games",
       cardSubtitle:"(DP Content)",
-      cardDetailedText: "Liderava uma equipe para desenvolvimento de jogos educativos para clientes como: SER Educaional, Ânima, Sanofi, Globo entre outros.   ",
+      cardDetailedText: "Liderava uma equipe para desenvolvimento de jogos educativos para clientes como: SER Educacional, Ânima, Sanofi, Globo entre outros.   ",
       
       },{
         title: "Mar 2018",
