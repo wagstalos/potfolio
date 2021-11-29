@@ -15,8 +15,7 @@ img {
 }
 
 button {
-  margin: 0 auto;
-  display: flex;
+
   border: #2f988f 1px solid;
   padding: 5px 10px;
   border-radius: 16px;
@@ -105,5 +104,10 @@ button {
 
   .css-1gmg89u-MediaWrapper, .css-1o1kbkv-MediaWrapper {
     min-height: 100px !important;
+  }
+
+  button {
+    margin: 0 auto;
+    display: flex;
   }
 }
