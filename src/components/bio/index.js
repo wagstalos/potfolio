@@ -5,15 +5,21 @@ import Slider from "../slider";
 import Sociais from "../sociais";
 import Toogle from "../toggle";
 import Experience from "../experience";
+import Whatsapp from "../whatsapp";
 
 function Bio() {
   return (
     <div className="container">
+      <Whatsapp />
       <div className="flex flex-column-mb">
         <div className="mr-50">
-          <img className="img-bio blob blue" src={imageAvatar} alt="Imagem do autor" />
+          <img
+            className="img-bio blob blue"
+            src={imageAvatar}
+            alt="Imagem do autor"
+          />
           <h5>Redes socias</h5>
-            <Sociais />
+          <Sociais />
         </div>
 
         <div>
