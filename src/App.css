@@ -66,11 +66,11 @@ button {
 
 .btn-whats {
   position: fixed;
-  bottom: 10px;
+  bottom: 20px;
   z-index: 10;
-  right: 10px;
+  right: 20px;
   background-color: #ddf0f0;
-  padding: 8px;
+  padding: 8px 10px;
   border-radius: 100%;
   box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
 }

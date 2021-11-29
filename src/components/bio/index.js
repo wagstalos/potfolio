@@ -18,7 +18,7 @@ function Bio() {
             src={imageAvatar}
             alt="Imagem do autor"
           />
-          <h5>Redes socias</h5>
+          <h5>Como me encontrar:</h5>
           <Sociais />
         </div>
 
