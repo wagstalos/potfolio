@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #F5f5f5;
+  background-color: #fff;
 }
 
 img {
@@ -68,7 +68,7 @@ button {
   bottom: 20px;
   z-index: 10;
   right: 20px;
-  background-color: #ddf0f0;
+  background-color: #08b9bb;
   padding: 8px 10px;
   border-radius: 100%;
   box-shadow: 0 3px 10px rgb(0 0 0 / 20%);

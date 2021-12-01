@@ -42,15 +42,14 @@ export default function Experience() {
   return (
     <>
       <p>
-        Em 2011 desenvolvia games utilizando ActionScript, apoiando também na
-        produção de games em flash. Em 2013 já como ponto focal na área de dev
-        games migraram para <b>HTML5</b> . Já como lead, conduzia a equipe para
-        desenvolvimento de jogos educativos para clientes como ÂNIMA, SANOFI,
-        GLOBO, entre outros. Em 2018 comecei atuação em projetos WEB. Atuando
-        com desenvolvimento de{" "}
+        Em 2011 desenvolvia games utilizando ActionScript. Em 2013 já como ponto
+        focal na área de dev games migramos para <b>HTML5</b> . Já como lead,
+        conduzia a equipe para desenvolvimento de jogos educativos para clientes
+        como ÂNIMA, SANOFI, GLOBO, entre outros. Em 2018 comecei atuação em
+        projetos WEB. Atuando com desenvolvimento de{" "}
         <b>
-          Langding Pages, PWA, Wordpress, sites corporativos, e-mails de
-          marketing, Blogs.
+          Lannding Pages, PWA, Wordpress, sites corporativos, e-mails de
+          marketing e Blogs utilizando metodologias ágeis como Scrum e Kanban.
         </b>{" "}
       </p>
       <div style={{ width: "100%", height: "auto" }}>

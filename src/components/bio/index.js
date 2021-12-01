@@ -10,7 +10,6 @@ import Whatsapp from "../whatsapp";
 function Bio() {
   return (
     <div className="container">
-      <Whatsapp />
       <div className="flex flex-column-mb">
         <div className="mr-50">
           <img
@@ -33,7 +32,7 @@ function Bio() {
         <h3>Skills</h3>
         <Skills />
 
-        <h3 className="mt-50">Formação</h3>
+        <h3 className="mt-50"> Formação</h3>
         <Slider />
 
         <h3 className="mt-50">Currículo</h3>
@@ -93,6 +92,7 @@ function Bio() {
         <h3>Experiência</h3>
         <Experience />
       </div>
+      <Whatsapp />
     </div>
   );
 }
