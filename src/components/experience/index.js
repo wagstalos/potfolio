@@ -40,9 +40,8 @@ export default function Experience() {
     {
       title: "Mar 2022",
       cardTitle: "Software Enginner ",
-      cardSubtitle: "(Salerforce)",
-      cardDetailedText:
-        "Desenvolvimento Commerce Cloud com o CRM Salesforce.",
+      cardSubtitle: "(Salesforce)",
+      cardDetailedText: "Desenvolvimento Commerce Cloud com o CRM Salesforce.",
     },
   ];
 
