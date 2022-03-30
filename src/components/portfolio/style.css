@@ -1,6 +1,6 @@
 .card {
     background-color: #ffffff;
-    border-radius: 24px;
+    border-radius: 10px;
     padding: 10px;
     margin: 10px;
     box-shadow: 0 10px 15px -3px rgb(125 59 236 / 10%), 0 4px 6px -2px rgb(125 59 236 / 15%);
@@ -12,12 +12,14 @@
 
 .card img {
     width: 100%;
-    border-radius: 24px;
+    border-radius: 10px;
+    border: #e7e7e7 1px solid;
     height: 138px;
     object-fit: cover;
     -webkit-box-shadow: 4px 16px 19px -12px rgba(156, 156, 156, 0.5);
     -moz-box-shadow: 4px 16px 19px -12px rgba(156, 156, 156, 0.5);
     box-shadow: 4px 16px 19px -12px rgba(156, 156, 156, 0.5);
+    margin-bottom: 40px;
 }
 
 .m-14 {
