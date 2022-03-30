@@ -31,11 +31,18 @@ export default function Experience() {
         "Comecei auxiliar também em alguns projetos web. Desenvolvimento de Landing Pages, Site corporativos, Emails Marketing, PWA e Wordpress",
     },
     {
-      title: "Fev 2021",
+      title: "Ago 2021",
       cardTitle: "Desenvolvedor Front-end ",
       cardSubtitle: "(Freelancer)",
       cardDetailedText:
         "Desenvolvimento ReactJS, Landing Pages, SEO, Site corporativos, Emails Marketing, PWA e Wordpress",
+    },
+    {
+      title: "Mar 2022",
+      cardTitle: "Software Enginner ",
+      cardSubtitle: "(Salerforce)",
+      cardDetailedText:
+        "Desenvolvimento Commerce Cloud com o CRM Salesforce.",
     },
   ];
 

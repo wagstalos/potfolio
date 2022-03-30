@@ -78,6 +78,17 @@ button {
   margin-right: 0;
 }
 
+.tag-new {
+  position: absolute;
+  background-color: red;
+  padding: 3px 9px;
+  border-radius: 30px;
+  margin: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
   .mr-50 {
     margin: 25px;

@@ -152,7 +152,7 @@ export default function Skills(props) {
         </svg>
       </div>
 
-      <div className="card-skills flex flex-between ">
+      <div className="card-skills flex flex-between">
         <h5>Construct 3</h5>
         <svg
           xmlns="http://www.w3.org/2000/svg"

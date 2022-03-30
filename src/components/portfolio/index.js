@@ -42,6 +42,7 @@ class Portfolio extends Component {
           {posts.map((post) => (
             <div className="card" key={post.id}>
               <img src={post.img} alt={post.title} />
+              {/* <p className="tag-new">{post.new} </p> */}
               <h2 className="m-14">{post.title}</h2>
               <p className="m-14">{post.body} </p>
               <div class="flex">
