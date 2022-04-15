@@ -60,9 +60,11 @@ export default function Experience() {
       </p>
       <div style={{ width: "100%", height: "auto" }}>
         <Chrono
+          scrollable={{ scrollbar: true }}
+          slideShow
+          slideItemDuration={4500}
           items={items}
-          mode="VERTICAL"
-          hideControls="true"
+          cardPositionHorizontal="TOP"
           theme={{
             primary: "#08b9bc",
             secondary: "#c9feff",
