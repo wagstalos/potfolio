@@ -60,6 +60,13 @@ export default function Slider() {
             escola="Dev Samurai"
           />
         </SwiperSlide>
+        <SwiperSlide>
+          <Card
+            ano="2021-2022"
+            curso="Front-end Avançado"
+            escola="Codeboost"
+          />
+        </SwiperSlide>
       </Swiper>
     </div>
   );

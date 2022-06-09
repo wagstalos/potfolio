@@ -1,0 +1,13 @@
+.btn-share {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    color: #000;
+    background-color: #f1f1f1;
+    border: none;
+    margin-right: 8px;
+}
+
+.btn-share h4 {
+    margin: 0 4px 0 0;
+}

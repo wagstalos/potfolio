@@ -39,9 +39,10 @@ export default function Experience() {
     },
     {
       title: "Mar 2022",
-      cardTitle: "Software Enginner ",
+      cardTitle: "Software Engineer ",
       cardSubtitle: "(Salesforce)",
-      cardDetailedText: "Desenvolvimento Commerce Cloud com o CRM Salesforce.",
+      cardDetailedText:
+        "Desenvolvimento Commerce Cloud com o Salesforce (SFCC), SASS, ISML E Javascript utilizando metodologias Agéis Kanban e Scrum.",
     },
   ];
 
@@ -52,7 +53,7 @@ export default function Experience() {
         focal na área de dev games migramos para <b>HTML5</b> . Já como lead,
         conduzia a equipe para desenvolvimento de jogos educativos para clientes
         como ÂNIMA, SANOFI, GLOBO, entre outros. Em 2018 comecei atuação em
-        projetos WEB. Atuando com desenvolvimento de{" "}
+        projetos WEB. Atuando com desenvolvimento de
         <b>
           Lannding Pages, PWA, Wordpress, sites corporativos, e-mails de
           marketing e Blogs utilizando metodologias ágeis como Scrum e Kanban.
@@ -60,6 +61,7 @@ export default function Experience() {
       </p>
       <div style={{ width: "100%", height: "auto" }}>
         <Chrono
+          mode="VERTICAL"
           scrollable={{ scrollbar: true }}
           slideShow
           slideItemDuration={4500}
