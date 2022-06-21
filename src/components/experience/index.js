@@ -67,6 +67,8 @@ export default function Experience() {
           slideShow
           slideItemDuration={4500}
           items={items}
+          useReadMore={false}
+          hideControls
           theme={{
             primary: "#08b9bc",
             secondary: "#c9feff",
