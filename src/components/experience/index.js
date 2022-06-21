@@ -31,11 +31,11 @@ export default function Experience() {
         "Comecei auxiliar também em alguns projetos web. Desenvolvimento de Landing Pages, Site corporativos, Emails Marketing, PWA e Wordpress",
     },
     {
-      title: "Ago 2021",
+      title: "Out 2021",
       cardTitle: "Desenvolvedor Front-end ",
-      cardSubtitle: "(Freelancer)",
+      cardSubtitle: "(Atonit)",
       cardDetailedText:
-        "Desenvolvimento ReactJS, Landing Pages, SEO, Site corporativos, Emails Marketing, PWA e Wordpress",
+        "Desenvolvimento ReactJS, Landing Pages, SEO, Site corporativos, Emails Marketing, E-Commerce(SFCC).",
     },
     {
       title: "Mar 2022",
@@ -53,11 +53,12 @@ export default function Experience() {
         focal na área de dev games migramos para <b>HTML5</b> . Já como lead,
         conduzia a equipe para desenvolvimento de jogos educativos para clientes
         como ÂNIMA, SANOFI, GLOBO, entre outros. Em 2018 comecei atuação em
-        projetos WEB. Atuando com desenvolvimento de
+        projetos WEB. Atuando com desenvolvimento de{" "}
         <b>
-          Lannding Pages, PWA, Wordpress, sites corporativos, e-mails de
-          marketing e Blogs utilizando metodologias ágeis como Scrum e Kanban.
+          Landing Pages, PWA, Wordpress, sites corporativos, e-mails de
+          marketing e Blogs
         </b>{" "}
+        utilizando metodologias ágeis como <strong> Scrum e Kanban.</strong>
       </p>
       <div style={{ width: "100%", height: "auto" }}>
         <Chrono
@@ -66,7 +67,6 @@ export default function Experience() {
           slideShow
           slideItemDuration={4500}
           items={items}
-          cardPositionHorizontal="TOP"
           theme={{
             primary: "#08b9bc",
             secondary: "#c9feff",

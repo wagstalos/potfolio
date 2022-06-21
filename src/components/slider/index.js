@@ -16,11 +16,11 @@ export default function Slider() {
           300: {
             pagination: true,
             slidesPerView: 1.1,
+            allowTouchMove: true
           },
           600: {
-            slidesPerView: 3.2,
-            spaceBetween:40
-          },
+            slidesPerView: 3.1,
+          }
         }}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
