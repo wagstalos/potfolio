@@ -1,28 +1,25 @@
 import "./style.css";
 
 export default function Share() {
-  navigator
-    .share({
-      title: document.title,
-      text: "Wagner Silva",
-      url: window.location.href,
-    })
-    .then(() => console.log("Successfully shared! <3"))
-    .catch(() => console.log("Oh oh! Something went wrong:"));
+  const handleOnClick = () => {
+    if (navigator.share) {
+      navigator
+        .share({
+          title: document.title,
+          text: "Wagner Silva",
+          url: document.location.href,
+        })
+        .then(() => {
+          console.log("Successfully shared");
+        })
+        .catch((error) => {
+          console.error("Something went wrong sharing the blog", error);
+        });
+    }
+  };
   return (
     <>
-      <button
-        className="btn-share"
-        onClick={() => {
-          navigator.share({
-            title: "Portfolio",
-            text: "Wagner Silva",
-            url: "http://portfolio.wpsgames.com.br/",
-          });
-        }}
-      >
-        <h4>Compartilhar</h4>
-
+      <button className="btn-share" onClick={handleOnClick}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="icon icon-tabler icon-tabler-share"
@@ -42,6 +39,7 @@ export default function Share() {
           <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
           <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
         </svg>
+        <h4>Compartilhar</h4>
       </button>
     </>
   );

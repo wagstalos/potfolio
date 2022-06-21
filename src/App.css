@@ -21,6 +21,10 @@ button {
   cursor: pointer;
 }
 
+h5{
+  margin-bottom: 5px;
+}
+
 .container {
   max-width: 900px;
   margin: 0 auto;
@@ -88,6 +92,16 @@ button {
   color: white;
 }
 
+.tag-new:empty{
+  background-color: transparent;
+}
+
+h2:after{
+  content: " _";
+  color:#08b9bb;
+}
+
+
 @media only screen and (max-width: 600px) {
   .mr-50 {
     margin: 25px;
@@ -103,8 +117,12 @@ button {
     text-align: center;
   }
 
-  h1 {
+  h1,h2 {
     text-align: center;
+    
+  }
+
+  h1{
     font-size: 2.5em;
   }
 

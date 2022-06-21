@@ -1,5 +1,6 @@
 import "./style.css";
 import imageAvatar from "../../img/avatar.jpg";
+
 import Skills from "../skills";
 import Slider from "../slider";
 import Sociais from "../sociais";
@@ -23,19 +24,19 @@ function Bio() {
 
         <div>
           <h4 className="destaque">Quem sou</h4>
-          <h1>Wagner Paulo</h1>
+          <h1>Wagner Silva</h1>
           <Toogle />
         </div>
       </div>
 
       <div>
-        <h3>Skills</h3>
+        <h2 className="mt-50">Skills </h2>
         <Skills />
 
-        <h3 className="mt-50"> Formação</h3>
+        <h2 className="mt-50"> Formação</h2>
         <Slider />
 
-        <h3 className="mt-50">Currículo</h3>
+        <h2 className="mt-50">Currículo</h2>
         <div className="flex flex-between flex-wrap">
           <div>
             <a
@@ -89,7 +90,7 @@ function Bio() {
           </div>
         </div>
 
-        <h3>Experiência</h3>
+        <h2>Experiência</h2>
         <Experience />
       </div>
       <Whatsapp />
