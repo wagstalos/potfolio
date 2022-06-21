@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   background-color: #fff;
@@ -21,7 +25,7 @@ button {
   cursor: pointer;
 }
 
-h5{
+h5 {
   margin-bottom: 5px;
 }
 
@@ -92,15 +96,29 @@ h5{
   color: white;
 }
 
-.tag-new:empty{
+.tag-new:empty {
   background-color: transparent;
 }
 
-h2:after{
+h2:after {
   content: " _";
-  color:#08b9bb;
+  color: #08b9bb;
 }
 
+.wp-slider {
+  position: relative;
+}
+
+.wp-slider:after {
+  content: "";
+  position: absolute;
+  right: -4px;
+  top: 0;
+  background: linear-gradient(270deg, #fff -16.41%, transparent);
+  height: 100%;
+  width: 20%;
+  z-index: 2;
+}
 
 @media only screen and (max-width: 600px) {
   .mr-50 {
@@ -117,12 +135,12 @@ h2:after{
     text-align: center;
   }
 
-  h1,h2 {
+  h1, h2 {
     text-align: center;
-    
+
   }
 
-  h1{
+  h1 {
     font-size: 2.5em;
   }
 

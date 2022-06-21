@@ -7,7 +7,7 @@ import "swiper/swiper.scss";
 
 export default function Slider() {
   return (
-    <div>
+    <div className="wp-slider">
       <Swiper
         spaceBetween={10}
         slidesPerView={3.1}
@@ -15,7 +15,7 @@ export default function Slider() {
           // when window width is >= 640px
           300: {
             pagination: true,
-            slidesPerView: 1.1,
+            slidesPerView: 1.2,
           },
           600: {
             slidesPerView: 3.1,
