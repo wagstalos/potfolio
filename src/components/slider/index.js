@@ -15,10 +15,11 @@ export default function Slider() {
           // when window width is >= 640px
           300: {
             pagination: true,
-            slidesPerView: 1.2,
+            slidesPerView: 1.1,
           },
           600: {
-            slidesPerView: 3.1,
+            slidesPerView: 3.2,
+            spaceBetween:40
           },
         }}
         onSlideChange={() => console.log("slide change")}

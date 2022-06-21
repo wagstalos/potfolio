@@ -1,5 +1,6 @@
 .compCard h3 {
     color: #56e0e2;
+    margin: 0;
 }
 
 .card-formacao {
@@ -8,10 +9,26 @@
     padding: 10px;
     width: 262px;
 }
-
+.card-formacao p{
+    margin: 0 0 16px 0;
+}
+.card-formacao h4{
+    margin-bottom: 8px;
+}
+.card-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .icon-formacao {
     width: 29px;
     padding: 7px;
     background-color: #ebebeb;
     border-radius: 13px;
 }
+@media only screen and (max-width: 600px) {
+    .card-formacao{
+        width: 90%;
+    }
+    
+}  
