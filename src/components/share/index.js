@@ -39,7 +39,6 @@ export default function Share() {
           <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
           <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
         </svg>
-        <h4>Compartilhar</h4>
       </button>
     </>
   );

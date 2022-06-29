@@ -3,10 +3,14 @@
     margin: 0 auto;
     align-items: center;
     background-color: #f8f8f8;
-    border: none;
+    border: solid 1px #dbdbdb;
     margin-right: 8px;
 }
 
 .btn-share h4 {
     margin: 0 4px 0 0;
+}
+
+.btn-share svg {
+    margin: 0;
 }
