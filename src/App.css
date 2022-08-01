@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600&display=swap');
 
+:root {
+  --main-color: #08b9bb;
+  --white: #fff;
+}
 * {
   padding: 0;
 }
@@ -10,7 +14,7 @@ html {
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 img {
@@ -19,7 +23,7 @@ img {
 }
 
 button {
-  border: #2f988f 1px solid;
+  border: var(--main-color) 1px solid;
   padding: 5px 10px;
   border-radius: 16px;
   cursor: pointer;
@@ -93,7 +97,7 @@ h5 {
   margin: 6px;
   font-size: 12px;
   font-weight: 700;
-  color: white;
+  color:  var(--white);
 }
 
 .tag-new:empty {
@@ -114,7 +118,7 @@ h2:after {
   position: absolute;
   right: -4px;
   top: 0;
-  background: linear-gradient(270deg, #fff -16.41%, transparent);
+  background: linear-gradient(270deg,  var(--white) -16.41%, transparent);
   height: 100%;
   width: 20%;
   z-index: 2;

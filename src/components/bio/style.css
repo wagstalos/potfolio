@@ -28,7 +28,7 @@ li {
 }
 
 .destaque {
-    color: #08b9bb;
+    color: var(--main-color);
     font-weight: 700;
     margin-block-start: 0;
     margin-bottom: 0;
