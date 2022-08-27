@@ -6,18 +6,30 @@ export default function Skills() {
     <div className="slider-kills wp-slider">
       <Swiper
         spaceBetween={10}
-        slidesPerView={8.5}
+        slidesPerView={2.2}
         breakpoints={{
           // when window width is >= 640px
           300: {
+            pagination: true,
+            spaceBetween: 20,
+            slidesPerView: 2.8,
+            allowTouchMove: true,
+          },
+          400: {
             pagination: true,
             spaceBetween: 20,
             slidesPerView: 3.8,
             allowTouchMove: true,
           },
           600: {
-            slidesPerView: 8.5,
+            slidesPerView: 5.5,
           },
+          750: {
+            slidesPerView: 6.5,
+          },
+          850: {
+            slidesPerView: 8.5,
+          }
         }}
         className="flex flex-wrap flex-center"
         //   onReachEnd={() => {

@@ -20,7 +20,7 @@ export default function Share() {
   return (
     <>
       <button className="btn-share" onClick={handleOnClick}>
-      <h4>Compartilhar</h4>  
+      {/* <h4>Compartilhar</h4>   */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="icon icon-tabler icon-tabler-share"
