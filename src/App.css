@@ -90,6 +90,11 @@ h5 {
   box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
 }
 
+.trailhead{
+  width: 50px;
+}
+
+
 .btn-whats svg {
   margin-right: 0;
 }
@@ -138,7 +143,7 @@ h2:after {
     flex-direction: column;
   }
 
-  .destaque {
+  .color-green-bold  {
     text-align: center;
   }
 

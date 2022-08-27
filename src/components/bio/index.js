@@ -1,5 +1,6 @@
 import "./style.css";
 import imageAvatar from "../../img/avatar.jpg";
+import imageExpeditioner from "../../img/expeditioner.png";
 
 import Skills from "../skills";
 import Slider from "../slider";
@@ -23,8 +24,19 @@ function Bio() {
         </div>
 
         <div>
-          <h4 className="destaque">Quem sou</h4>
-          <h1>Wagner Silva</h1>
+        <h4 className="color-green-bold">Quem sou</h4>
+          <div className="flex name-main">
+            <div>
+              <h1>Wagner Silva</h1>
+            </div>
+
+            <img
+              className="img-expeditioner"
+              src={imageExpeditioner}
+              alt="Imagem do autor"
+            />
+          </div>
+
           <Toogle />
         </div>
       </div>
