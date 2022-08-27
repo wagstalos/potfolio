@@ -16,44 +16,20 @@ export default function Slider() {
           300: {
             pagination: true,
             slidesPerView: 1.1,
-            allowTouchMove: true
+            allowTouchMove: true,
           },
           600: {
             slidesPerView: 3.1,
-          }
+          },
         }}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
         className="container"
       >
         <SwiperSlide>
-          <Card
-            ano="2010-2012"
-            curso="Design Gráfico"
-            escola="Universidade Paulista"
-          />
+          <Card ano="2021-2022" curso="Front-end Avançado" escola="Codeboost" />
         </SwiperSlide>
-        <SwiperSlide>
-          <Card
-            ano="2014 - 2016"
-            curso="Programação de jogos digitais"
-            escola="Etec Guaracy Silveira"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Card
-            ano="2019-2020"
-            curso="Desenvolvedor Front-end"
-            escola="Treina Web"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Card
-            ano="2019-2020"
-            curso="English Course - Basic"
-            escola="Smile English"
-          />
-        </SwiperSlide>
+
         <SwiperSlide>
           <Card
             ano="2020-2020"
@@ -61,11 +37,36 @@ export default function Slider() {
             escola="Dev Samurai"
           />
         </SwiperSlide>
+
         <SwiperSlide>
           <Card
-            ano="2021-2022"
-            curso="Front-end Avançado"
-            escola="Codeboost"
+            ano="2019-2020"
+            curso="English Course - Basic"
+            escola="Smile English"
+          />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Card
+            ano="2019-2020"
+            curso="Desenvolvedor Front-end"
+            escola="Treina Web"
+          />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Card
+            ano="2014 - 2016"
+            curso="Programação de jogos digitais"
+            escola="Etec Guaracy Silveira"
+          />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Card
+            ano="2010-2012"
+            curso="Design Gráfico"
+            escola="Universidade Paulista"
           />
         </SwiperSlide>
       </Swiper>

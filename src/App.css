@@ -3,7 +3,9 @@
 :root {
   --main-color: #08b9bb;
   --white: #fff;
+  --black: #222;
 }
+
 * {
   padding: 0;
 }
@@ -24,8 +26,11 @@ img {
 
 button {
   border: var(--main-color) 1px solid;
-  padding: 5px 10px;
-  border-radius: 16px;
+  background-color: var(--main-color);
+  color: var(--white);
+  padding: 5px 15px;
+  font-weight: 700;
+  border-radius: 10px;
   cursor: pointer;
 }
 
@@ -97,7 +102,7 @@ h5 {
   margin: 6px;
   font-size: 12px;
   font-weight: 700;
-  color:  var(--white);
+  color: var(--white);
 }
 
 .tag-new:empty {
@@ -106,11 +111,12 @@ h5 {
 
 h2:after {
   content: " _";
-  color: #08b9bb;
+  color: #08b9bb
 }
 
 .wp-slider {
   position: relative;
+  cursor: grab;
 }
 
 .wp-slider:after {
@@ -118,7 +124,7 @@ h2:after {
   position: absolute;
   right: -4px;
   top: 0;
-  background: linear-gradient(270deg,  var(--white) -16.41%, transparent);
+  background: linear-gradient(270deg, var(--white) -16.41%, transparent);
   height: 100%;
   width: 20%;
   z-index: 2;

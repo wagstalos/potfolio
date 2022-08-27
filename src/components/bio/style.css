@@ -53,10 +53,10 @@ li {
 }
 
 .btn-download {
-    background-color: rgba(15, 204, 206, .1);
+    background-color: var(--main-color);
     padding: 5px 21px;
     border-radius: 10px;
-    color: #08b9bb;
+    color: var(--white);
     font-weight: 700;
     text-decoration: none;
 }
