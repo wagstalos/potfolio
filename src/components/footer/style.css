@@ -8,3 +8,17 @@ footer {
 footer p {
     color: aliceblue;
 }
+
+.btn-top{
+    position: fixed;
+    bottom: 20px;
+    background: rgba(8, 185, 187, .8);;
+    color: var(--white);
+    border-radius: 50px;
+    padding: 14px;
+    display: flex;
+}
+
+.btn-top svg{
+    margin: 0;
+}

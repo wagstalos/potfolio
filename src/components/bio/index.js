@@ -11,7 +11,7 @@ import Whatsapp from "../whatsapp";
 
 function Bio() {
   return (
-    <div className="container">
+    <div className="container" id="top">
       <div className="flex flex-column-mb">
         <div className="mr-50">
           <img
