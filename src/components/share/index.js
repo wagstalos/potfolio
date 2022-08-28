@@ -25,7 +25,7 @@ export default function Share() {
           xmlns="http://www.w3.org/2000/svg"
           class="icon icon-tabler icon-tabler-share"
           width="24"
-          height="24"
+          heightName="24"
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="#08b9bb"

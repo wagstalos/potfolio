@@ -4,7 +4,7 @@ export default function Whatsapp() {
       <a href="https://api.whatsapp.com/send?l=pt_BR&phone=5511999488027">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="icon icon-tabler icon-tabler-brand-whatsapp"
+          className="icon icon-tabler icon-tabler-brand-whatsapp"
           width="34"
           height="34"
           viewBox="0 0 24 24"

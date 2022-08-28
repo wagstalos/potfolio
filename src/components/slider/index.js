@@ -10,7 +10,7 @@ export default function Slider() {
     <div className="wp-slider">
       <Swiper
         spaceBetween={10}
-        slidesPerView={3.1}
+        slidesPerView={1}
         breakpoints={{
           // when window width is >= 640px
           300: {
@@ -18,9 +18,18 @@ export default function Slider() {
             slidesPerView: 1.1,
             allowTouchMove: true,
           },
-          600: {
-            slidesPerView: 3.1,
+          400:{
+            slidesPerView: 1.5
           },
+          570: {
+            slidesPerView: 2.1
+          },
+          720:{
+            slidesPerView: 2.5
+          },
+          900:{
+            slidesPerView: 3.1
+          }
         }}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}

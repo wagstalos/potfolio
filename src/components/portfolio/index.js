@@ -20,7 +20,7 @@ class Portfolio extends Component {
         <div className="flex center portfolio">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-code"
+            className="icon icon-tabler icon-tabler-code"
             width="28"
             height="28"
             viewBox="0 0 24 24"
@@ -45,11 +45,11 @@ class Portfolio extends Component {
               <p className="tag-new">{post.new}</p>
               <h3 className="m-14">{post.title}</h3>
               <p className="m-14">{post.body} </p>
-              <div class="flex">
-                <p class="tag categoria">{post.tag} </p>
-                <p class="tag categoria">{post.categoria} </p>
+              <div className="flex">
+                <p className="tag categoria">{post.tag} </p>
+                <p className="tag categoria">{post.categoria} </p>
               </div>
-              <a className="botao" href={post.url} target="_blank">
+              <a className="botao" href={post.url} target="_blank" rel="noreferrer">
                 Veja mais
               </a>
             </div>

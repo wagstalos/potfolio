@@ -4,7 +4,7 @@ export default function Sociais() {
       <a href="https://github.com/wagstalos">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="icon icon-tabler icon-tabler-brand-github"
+          className="icon icon-tabler icon-tabler-brand-github"
           width="34"
           height="34"
           viewBox="0 0 24 24"
@@ -22,7 +22,7 @@ export default function Sociais() {
       <a href="https://www.linkedin.com/in/wagner-silva-6a163555/">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="icon icon-tabler icon-tabler-brand-linkedin"
+          className="icon icon-tabler icon-tabler-brand-linkedin"
           width="34"
           height="34"
           viewBox="0 0 24 24"
@@ -44,7 +44,7 @@ export default function Sociais() {
       <a href="https://www.instagram.com/wagner.paulo89/">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="icon icon-tabler icon-tabler-brand-instagram"
+          className="icon icon-tabler icon-tabler-brand-instagram"
           width="34"
           height="34"
           viewBox="0 0 24 24"
@@ -64,7 +64,7 @@ export default function Sociais() {
       <a href="mailto:wagstalos@hotmail.com">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="icon icon-tabler icon-tabler-mail"
+          className="icon icon-tabler icon-tabler-mail"
           width="34"
           height="34"
           viewBox="0 0 24 24"
