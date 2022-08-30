@@ -1,6 +1,6 @@
 import "./style.css";
 import imageAvatar from "../../img/avatar.jpg";
-import imageExpeditioner from "../../img/expeditioner.png";
+import imageRanger from "../../img/ranger.png";
 
 import Skills from "../skills";
 import Slider from "../slider";
@@ -24,17 +24,18 @@ function Bio() {
         </div>
 
         <div>
-        <h4 className="color-green-bold">Quem sou</h4>
+          <h4 className="color-green-bold">Quem sou</h4>
           <div className="flex name-main">
             <div>
               <h1>Wagner Silva</h1>
             </div>
-
-            <img
-              className="img-expeditioner"
-              src={imageExpeditioner}
-              alt="Imagem do autor"
-            />
+            <a href="https://trailblazer.me/id/wdasilva13" target="_blank" rel="noopener noreferrer">
+              <img
+                className="img-expeditioner"
+                src={imageRanger}
+                alt="Badge do Ranger trailhead"
+              />
+            </a>
           </div>
 
           <Toogle />
