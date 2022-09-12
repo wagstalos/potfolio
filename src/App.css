@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
 :root {
   --main-color: #08b9bb;
@@ -32,6 +33,14 @@ button {
   font-weight: 700;
   border-radius: 10px;
   cursor: pointer;
+}
+
+h1 {
+  background: -webkit-linear-gradient(rgb(163, 163, 163), #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h5 {
@@ -149,7 +158,6 @@ h2:after {
 
   h1, h2 {
     text-align: center;
-
   }
 
   h1 {
