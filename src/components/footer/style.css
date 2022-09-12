@@ -11,12 +11,14 @@ footer p {
 
 .btn-top{
     position: fixed;
-    bottom: 20px;
-    background: rgba(8, 185, 187, .8);;
-    color: var(--white);
+    bottom: 85px;
+    right: 24px;
+    background: #f8f8f8;
+    color: var(--main-color);
     border-radius: 50px;
-    padding: 14px;
+    padding: 10px;
     display: flex;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
 }
 
 .btn-top svg{
