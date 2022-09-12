@@ -24,7 +24,7 @@ function Bio() {
         </div>
 
         <div>
-          {/* <h4 className="color-green-bold">Quem sou</h4> */}
+          <h4 className="color-green-bold">Quem sou</h4>
           <div className="flex name-main">
             <div>
               <h1>Wagner Silva</h1>

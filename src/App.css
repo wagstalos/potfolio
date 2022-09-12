@@ -36,7 +36,7 @@ button {
 }
 
 h1 {
-  background: -webkit-linear-gradient(rgb(163, 163, 163), #333);
+  background: -webkit-linear-gradient(rgb(79, 79, 79), #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
@@ -45,6 +45,7 @@ h1 {
 
 h5 {
   margin-bottom: 5px;
+  text-align: center;
 }
 
 .container {
@@ -123,10 +124,10 @@ h5 {
   background-color: transparent;
 }
 
-h2:after {
+/* h2:after {
   content: " _";
   color: #08b9bb
-}
+} */
 
 .wp-slider {
   position: relative;

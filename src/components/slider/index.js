@@ -9,7 +9,7 @@ export default function Slider() {
   return (
     <div className="wp-slider">
       <Swiper
-        spaceBetween={10}
+        spaceBetween={5}
         slidesPerView={1}
         breakpoints={{
           // when window width is >= 640px
