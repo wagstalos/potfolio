@@ -33,15 +33,17 @@ li {
     margin-top: 20px;
 }
 
-.img-expeditioner{
+.img-expeditioner {
     width: 68px;
     border-radius: 0;
     margin-left: 10px;
 }
 
-.name-main{
+.name-main {
     justify-content: space-between;
+    margin-top: -24px;
 }
+
 .m-50 {
     margin: 50px 0 50px 0;
 }
@@ -123,6 +125,7 @@ a {
 @media only screen and (max-width: 600px) {
     .mr-50 {
         margin: 0;
+        margin-top: -40px;
     }
 
     h5 {
@@ -152,11 +155,12 @@ a {
         font-size: 2em;
     }
 
-    .name-main{
+    .name-main {
         justify-content: center;
+        margin-top: -16px;
     }
 
-    .img-expeditioner{
+    .img-expeditioner {
         width: 50px;
     }
 }
