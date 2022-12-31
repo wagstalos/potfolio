@@ -7,8 +7,20 @@ class Portfolio extends Component {
   };
 
   componentDidMount() {
-    fetch("https://wpsgames.com.br/app/api/projetos.json")
-      .then((response) => response.json())
+    var myInit = {
+      mode: "no-cors",
+      method: "GET",
+      credentials: "same-origin",
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Content-Type": "application/json",
+      },
+    };
+
+    const endpoint = "/projetos.json";
+
+    fetch(endpoint, myInit)
+      .then((res) => res.json())
       .then((posts) => this.setState({ posts }));
   }
 
@@ -49,7 +61,12 @@ class Portfolio extends Component {
                 <p className="tag categoria">{post.tag} </p>
                 <p className="tag categoria">{post.categoria} </p>
               </div>
-              <a className="botao" href={post.url} target="_blank" rel="noreferrer">
+              <a
+                className="botao"
+                href={post.url}
+                target="_blank"
+                rel="noreferrer"
+              >
                 Veja mais
               </a>
             </div>

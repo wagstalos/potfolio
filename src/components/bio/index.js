@@ -31,10 +31,10 @@ const getPicture = (index) => {
       return a4;
 
     default:
-      return a1;
+      return a3;
   }
 };
-const NUMBER_OF_PICTURES = 2;
+const NUMBER_OF_PICTURES = 4;
 
 function Bio() {
   const [index, setIndex] = useState(0);

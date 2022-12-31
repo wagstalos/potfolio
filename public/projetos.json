@@ -1,0 +1,239 @@
+[
+  {
+    "albumId": 1,
+    "id": 1,
+    "title": "Prof Manu",
+    "img": "https://wpsgames.com.br/img/img-manu.png",
+    "body": "Site para uma professora de espanhol!",
+    "url": "https://profmanu.com/",
+    "tag": "Site ",
+    "categoria": "Bootstrap 5",
+    "new": "Novo projeto"
+  },
+  {
+    "albumId": 1,
+    "id": 2,
+    "title": "Redesign site C6",
+    "img": "https://wpsgames.com.br/img/c6bank.jpg",
+    "body": "Desafio do curso Codeboost ",
+    "url": "https://wpsgames.com.br/sites/c6bank/",
+    "tag": "Site",
+    "categoria": "Flexbox"
+  },
+  {
+    "albumId": 1,
+    "id": 3,
+    "title": "WPS Money",
+    "img": "https://wpsgames.com.br/img/wps-money.png",
+    "body": "Aplicativo Smart Money, controle dos seu gastos na sua mão.",
+    "url": "https://play.google.com/store/apps/details?id=br.com.wpsgames.wpsmoney_free",
+    "tag": "APP",
+    "categoria": "React Native"
+  },
+  {
+    "albumId": 1,
+    "id": 4,
+    "title": "Redesign Tractian",
+    "img": "https://wpsgames.com.br/img/site-tractian.jpg",
+    "body": "Redesign do site ds Tractian em ReactJS",
+    "url": "https://wpsgames.com.br/sites/tractian/",
+    "tag": "Landing Page",
+    "categoria": "ReactJS",
+    "new": ""
+  },
+  {
+    "albumId": 1,
+    "id": 5,
+    "title": "Frequência RH",
+    "img": "https://frequenciarh.com.br/wp-content/themes/dpc/img/share.jpg",
+    "body": "Site para empresa de vagas de emprego e consultoria.",
+    "url": "https://frequenciarh.com.br/",
+    "tag": "Site",
+    "categoria": "WordPress",
+    "new": ""
+  },
+  {
+    "albumId": 1,
+    "id": 6,
+    "title": "Virtual reality",
+    "img": "https://raw.githubusercontent.com/wagstalos/virtual-reality/master/img/mockupVirtual.png",
+    "body": "Landing page sobe Virtual reality",
+    "url": "https://wagstalos.github.io/virtual-reality/",
+    "tag": "Landing page",
+    "categoria": "HTML 5"
+  },
+  {
+    "albumId": 1,
+    "id": 7,
+    "title": "WPS Cripto",
+    "img": "https://wpsgames.com.br/img/wps-cripto.jpg",
+    "body": "Pegando os valores das Criptomoedas por uma API.",
+    "url": "https://wpsgames.com.br/sites/cripto/",
+    "tag": "Site",
+    "categoria": "ReactJS"
+  },
+  {
+    "albumId": 1,
+    "id": 8,
+    "title": "Plataforma EaD",
+    "img": "https://wpsgames.com.br/img/ead.jpg",
+    "body": "Desenvolvimento de uma plataforma completa usando o WP.",
+    "url": "https://wpsgames.com.br/sites/plataforma-ead/",
+    "tag": "Site",
+    "categoria": "WordPress"
+  },
+  {
+    "albumId": 1,
+    "id": 9,
+    "title": "Redesign NEON",
+    "img": "https://wagstalos.github.io/lp-neon/img/share-img.png",
+    "body": "Redesign Landing Page NEON como HTML/SASS/JS.",
+    "url": "https://wagstalos.github.io/lp-neon/",
+    "tag": "Site",
+    "categoria": "HTML5"
+  },
+  {
+    "albumId": 1,
+    "id": 10,
+    "title": "Site para Descomplix",
+    "img": "https://wpsgames.com.br/img/site-descomplix.jpg",
+    "body": "Desenvolvimento de um site para Descomplix",
+    "url": "https://www.descomplix.com/",
+    "tag": "Site",
+    "categoria": "HTML 5"
+  },
+  {
+    "albumId": 1,
+    "id": 11,
+    "title": "Aplicativo",
+    "img": "https://wpsgames.com.br/img/app-prodigium.png",
+    "body": "Desenvolvimento de um app para loja de suplementos!",
+    "url": "https://play.google.com/store/apps/details?id=com.wpsgames.prodigium&hl=pt",
+    "tag": "App",
+    "categoria": "Ionic"
+  },
+  {
+    "albumId": 1,
+    "id": 12,
+    "title": "Scope Media",
+    "img": "https://wpsgames.com.br/img/scope.jpg",
+    "body": "Landing page para Scope",
+    "url": "https://www.scopemedia.com.br/",
+    "tag": "Site",
+    "categoria": "HTML5"
+  },
+  {
+    "albumId": 1,
+    "id": 13,
+    "title": "Concept Home",
+    "img": "https://wpsgames.com.br/img/concepthome.jpg",
+    "body": "Site para empresa Concept Home",
+    "url": "https://www.concepthomeinteriores.com/",
+    "tag": "Site",
+    "categoria": "WordPress"
+  },
+  {
+    "albumId": 1,
+    "id": 14,
+    "title": "Space flight news",
+    "img": "https://wpsgames.com.br/img/api-flight.jpg",
+    "body": "Consumindo API com ReactJS",
+    "url": "https://wpsgames.com.br/sites/reactjs/api-flight/",
+    "tag": "API",
+    "categoria": "ReactJS"
+  },
+  {
+    "albumId": 1,
+    "id": 15,
+    "title": "Criar de memes",
+    "img": "https://wpsgames.com.br/img/meme.webp",
+    "body": "Gerador de Memes divertidos para web!",
+    "url": "https://wpsgames.com.br/sites/criar-memes/",
+    "tag": "Site",
+    "categoria": "ReactJS"
+  },
+  {
+    "albumId": 1,
+    "id": 16,
+    "title": "Landing page",
+    "img": "https://raw.githubusercontent.com/wagstalos/projeto-binance/master/img/lp-cripto-new.png",
+    "body": "LP para venda de curso sobre criptomoedas.",
+    "url": "https://wagstalos.github.io/projeto-binance/",
+    "tag": "Site",
+    "categoria": "HTML5"
+  },
+  {
+    "albumId": 1,
+    "id": 17,
+    "title": "Previsão do tempo",
+    "img": "https://raw.githubusercontent.com/wagstalos/weather-api/master/img/screenshot.png",
+    "body": "Consumindo API de previsão do tempo.",
+    "url": "https://wpsgames.com.br/sites/api-weather-v2/",
+    "tag": "Site",
+    "categoria": "API"
+  },
+  {
+    "albumId": 1,
+    "id": 18,
+    "title": "PokéApi",
+    "img": "https://raw.githubusercontent.com/wagstalos/pokemon-api-codeboost/master/img/screen.png",
+    "body": "Consumindo API do Pokemon.",
+    "url": "https://wagstalos.github.io/pokemon-api-codeboost/",
+    "tag": "Landing Page",
+    "categoria": "API"
+  },
+  {
+    "albumId": 1,
+    "id": 19,
+    "title": "Vue Mastery Socks",
+    "img": "https://wpsgames.com.br/img/vue-intro.jpg",
+    "body": "Conceitos básico do Vue 3",
+    "url": "https://wagstalos.github.io/intro-vue3/",
+    "tag": "Mini cart",
+    "categoria": "Vue JS 3"
+  },
+  {
+    "albumId": 1,
+    "id": 20,
+    "title": "Copiar & Colar",
+    "img": "https://wpsgames.com.br/img/domjs.jpg",
+    "body": "Manipulação DOM com JS",
+    "url": "https://wagstalos.github.io/copy-text-js/",
+    "tag": "DOM",
+    "categoria": "JS",
+    "new": "Novo projeto"
+  },
+  {
+    "albumId": 1,
+    "id": 21,
+    "title": "Landing Page",
+    "img": "https://wpsgames.com.br/img/educar.jpg",
+    "body": "Site responsivo sem framework",
+    "url": "https://wpsgames.com.br/sites/educar/",
+    "tag": "HTML 5",
+    "categoria": "SASS",
+    "new": "Novo projeto"
+  },
+  {
+    "albumId": 1,
+    "id": 22,
+    "title": "Vue.js Modo Dark",
+    "img": "https://wpsgames.com.br/img/dark.jpg",
+    "body": "Criando modo dark com toggle.",
+    "url": "https://wagstalos.github.io/vue3-basic/",
+    "tag": "Modo dark",
+    "categoria": "Vue JS 3",
+    "new": "Novo projeto"
+  },
+  {
+    "albumId": 1,
+    "id": 23,
+    "title": "Vue. API moedas",
+    "img": "https://wpsgames.com.br/img/vue-intro.jpg",
+    "body": "Cotação de moedas usando Vue",
+    "url": "https://vue-api-moedas.vercel.app/",
+    "tag": "API",
+    "categoria": "Vue JS 3",
+    "new": "Novo projeto"
+  }
+]

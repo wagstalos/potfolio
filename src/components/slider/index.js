@@ -18,18 +18,18 @@ export default function Slider() {
             slidesPerView: 1.1,
             allowTouchMove: true,
           },
-          400:{
-            slidesPerView: 1.5
+          400: {
+            slidesPerView: 1.5,
           },
           570: {
-            slidesPerView: 2.1
+            slidesPerView: 2.1,
           },
-          720:{
-            slidesPerView: 2.5
+          720: {
+            slidesPerView: 2.5,
           },
-          900:{
-            slidesPerView: 3.1
-          }
+          900: {
+            slidesPerView: 3.1,
+          },
         }}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}

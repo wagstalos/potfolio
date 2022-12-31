@@ -7,28 +7,34 @@
     background-color: #f8f8f8;
     border-radius: 24px;
     padding: 10px;
+    border: 1px solid #efeded;
     width: 262px;
 }
-.card-formacao p{
+
+.card-formacao p {
     margin: 0 0 16px 0;
 }
-.card-formacao h4{
+
+.card-formacao h4 {
     margin-bottom: 8px;
 }
-.card-top{
+
+.card-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .icon-formacao {
     width: 29px;
     padding: 7px;
     background-color: #ebebeb;
     border-radius: 13px;
 }
+
 @media only screen and (max-width: 600px) {
-    .card-formacao{
+    .card-formacao {
         width: 90%;
     }
-    
-}  
+
+}
