@@ -68,6 +68,11 @@ li {
     color: var(--white);
     font-weight: 700;
     text-decoration: none;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 a {
@@ -79,7 +84,7 @@ a {
 }
 
 .img-bio {
-    border: 3px #08b9bb solid;
+    border: 3px transparent solid;
     border-radius: 100%;
     width: 150px;
 }
@@ -147,7 +152,12 @@ a {
 
 @media only screen and (max-width: 480px) {
     .btn-download {
-        margin-top: 15px;
+        margin: 15px 0;
+    }
+
+    .wrapper .btn-test {
+        width: 100%;
+        margin: 0;
     }
 
     h1 {

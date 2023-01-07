@@ -35,14 +35,14 @@ export default function Experience() {
       cardTitle: "Desenvolvedor Front-end ",
       cardSubtitle: "(Atonit by Salesforce)",
       cardDetailedText:
-        "Desenvolvimento VueJS, Landing Pages, SEO, Site corporativos, Emails Marketing, E-Commerce(SFCC).",
+        "Desenvolvimento VueJS, Landing Pages, SEO, Site corporativos, Emails Marketing, E-Commerce(SFCC). Desenvolvemos lojas para clientes como : Cacau Show, Bold  ",
     },
     {
       title: "Mar 2022",
       cardTitle: "Software Engineer ",
       cardSubtitle: "(Salesforce)",
       cardDetailedText:
-        "Desenvolvimento Commerce Cloud com o Salesforce (SFCC), SASS, ISML E Javascript utilizando metodologias Agéis Kanban e Scrum.",
+        "Desenvolvimento Commerce Cloud com o Salesforce (SFCC), SASS, ISML E Javascript utilizando metodologias Agéis Kanban e Scrum. Desenvolvemos lojas para clientes como : Tramontina, Copercana, Fini e Bold.",
     },
   ];
 
