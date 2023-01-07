@@ -33,9 +33,9 @@ export default function Experience() {
     {
       title: "Out 2021",
       cardTitle: "Desenvolvedor Front-end ",
-      cardSubtitle: "(Atonit)",
+      cardSubtitle: "(Atonit by Salesforce)",
       cardDetailedText:
-        "Desenvolvimento ReactJS, Landing Pages, SEO, Site corporativos, Emails Marketing, E-Commerce(SFCC).",
+        "Desenvolvimento VueJS, Landing Pages, SEO, Site corporativos, Emails Marketing, E-Commerce(SFCC).",
     },
     {
       title: "Mar 2022",
