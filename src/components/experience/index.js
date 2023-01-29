@@ -1,4 +1,6 @@
 import { Chrono } from "react-chrono";
+import "./style.css";
+import imageAvatar from "../../img/avatarSF.png";
 
 export default function Experience() {
   const items = [
@@ -48,20 +50,27 @@ export default function Experience() {
 
   return (
     <>
-      <p>
-        Em 2011 desenvolvia games utilizando ActionScript. Em 2013 já como ponto
-        focal na área de dev games migramos para <b>HTML5</b> . Já como lead,
-        conduzia a equipe para desenvolvimento de jogos educativos para clientes
-        como ÂNIMA, SANOFI, GLOBO, entre outros. Em 2018 comecei atuação em
-        projetos WEB. Atuando com desenvolvimento de,
-        <b>
-          Landing Pages, PWA, Wordpress, SFCC(Salesforce Commerce Cloud) , sites
-          corporativos, e-mails de marketing e Blogs
-        </b>{" "}
-        utilizando metodologias ágeis como <strong> Scrum e Kanban.</strong>
-        Em 2021 comecei trabalhar com commerce cloud e 2022 me tornei{" "}
-        <strong>Software Enginner</strong> na Saleforce
-      </p>
+      <div className="flex experience">
+        <div className="experience-image">
+          <img src={imageAvatar} alt="Wagner Silva" />
+        </div>
+
+        <p className="experience-text">
+          Em 2011 desenvolvia games utilizando ActionScript. Em 2013 já como
+          ponto focal na área de dev games migramos para <b>HTML5</b> . Já como
+          lead, conduzia a equipe para desenvolvimento de jogos educativos para
+          clientes como ÂNIMA, SANOFI, GLOBO, entre outros. Em 2018 comecei
+          atuação em projetos WEB. Atuando com desenvolvimento de,
+          <b>
+            Landing Pages, PWA, Wordpress, SFCC(Salesforce Commerce Cloud) ,
+            sites corporativos, e-mails de marketing e Blogs
+          </b>{" "}
+          utilizando metodologias ágeis como <strong> Scrum e Kanban.</strong>
+          Em 2021 comecei trabalhar com commerce cloud e 2022 me tornei{" "}
+          <strong>Software Enginner</strong> na Saleforce.
+        </p>
+      </div>
+
       <div style={{ width: "100%", height: "auto" }}>
         <Chrono
           mode="VERTICAL_ALTERNATING"

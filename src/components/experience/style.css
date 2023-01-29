@@ -1,0 +1,21 @@
+.experience-image {
+    width: 30%;
+}
+
+.experience-text {
+    width: 70%;
+}
+
+@media only screen and (max-width: 600px) {
+    .flex.experience {
+        flex-direction: column;
+    }
+    .experience-image {
+        width: 100%;
+    }
+    
+    .experience-text {
+        width: 100%;
+    }
+
+}

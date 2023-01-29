@@ -1,7 +1,6 @@
 import "./style.css";
 import React, { useState, useEffect } from "react";
 
-import imageAvatar from "../../img/avatar.jpg";
 import imageRanger from "../../img/ranger.png";
 
 import a1 from "../../img/a1.jpg";
