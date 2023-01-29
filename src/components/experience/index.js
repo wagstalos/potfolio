@@ -67,7 +67,7 @@ export default function Experience() {
           </b>{" "}
           utilizando metodologias ágeis como <strong> Scrum e Kanban.</strong>
           Em 2021 comecei trabalhar com commerce cloud e 2022 me tornei{" "}
-          <strong>Software Enginner</strong> na Saleforce.
+          <strong>Software Engineer</strong> na Saleforce.
         </p>
       </div>
 
