@@ -5,7 +5,7 @@
 
 .card-formacao {
     background-color: #f8f8f8;
-    border-radius: 24px;
+    border-radius: 22px;
     padding: 10px;
     border: 1px solid #efeded;
     width: 262px;
@@ -30,6 +30,48 @@
     padding: 7px;
     background-color: #ebebeb;
     border-radius: 13px;
+}
+
+.status {
+    border-radius: 17px;
+    color: #6e8081;
+    float: right;
+    margin-top: -13px;
+}
+
+.status:first-child {
+    color: red;
+}
+
+.status:empty {
+    display: none;
+}
+
+.complete {
+    background-color: #1abc9c;
+}
+
+.complete:empty {
+    background-color: transparent;
+}
+
+.progress {
+    background-color: #e67e22;
+}
+
+.progress:empty {
+    background-color: transparent;
+}
+
+.textMarque marquee:empty {
+    display: none;
+}
+
+.text-curso {
+    white-space: nowrap;
+    overflow: hidden;
+    /* "overflow" value must be different from "visible" */
+    text-overflow: ellipsis;
 }
 
 @media only screen and (max-width: 600px) {

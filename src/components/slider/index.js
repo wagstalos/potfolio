@@ -36,14 +36,20 @@ export default function Slider() {
         className="container"
       >
         <SwiperSlide>
-          <Card ano="2021-2022" curso="Front-end Avançado" escola="Codeboost" />
+          <Card
+            ano="2023-2023"
+            curso="Pós Des. Fullstack de Sistemas Modernos para Nuvem (Cloud Native)"
+            escola="Unesc"
+            status="Em andamento"
+          />
         </SwiperSlide>
 
         <SwiperSlide>
           <Card
-            ano="2020-2020"
-            curso="React Native Programmer"
-            escola="Dev Samurai"
+            ano="2021-2022"
+            curso="Front-end Avançado"
+            escola="Codeboost"
+            status="Concluído"
           />
         </SwiperSlide>
 
@@ -52,6 +58,7 @@ export default function Slider() {
             ano="2019-2020"
             curso="English Course - Basic"
             escola="Smile English"
+            status="Concluído"
           />
         </SwiperSlide>
 
@@ -60,6 +67,7 @@ export default function Slider() {
             ano="2019-2020"
             curso="Desenvolvedor Front-end"
             escola="Treina Web"
+            status="Concluído"
           />
         </SwiperSlide>
 
@@ -68,6 +76,7 @@ export default function Slider() {
             ano="2014 - 2016"
             curso="Programação de jogos digitais"
             escola="Etec Guaracy Silveira"
+            status="Concluído"
           />
         </SwiperSlide>
 
@@ -76,6 +85,7 @@ export default function Slider() {
             ano="2010-2012"
             curso="Design Gráfico"
             escola="Universidade Paulista"
+            status="Concluído"
           />
         </SwiperSlide>
       </Swiper>

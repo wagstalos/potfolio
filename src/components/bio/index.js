@@ -68,9 +68,10 @@ function Bio() {
         <div>
           <h4 className="color-green-bold">Quem sou</h4>
           <div className="flex name-main">
-            <div>
-              <h1>Wagner Silva</h1>
+            <div className="typing">
+              <h1 className="typing-effect">Wagner Silva</h1>
             </div>
+            <br />
             <a
               href="https://trailblazer.me/id/wdasilva13"
               target="_blank"

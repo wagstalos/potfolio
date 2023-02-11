@@ -14,8 +14,19 @@ export default function Card(props) {
           <h3>{props.ano}</h3>
         </div>
 
-        <h4>{props.curso}</h4>
+        <h4 className="textMarque">
+          <marquee behavior="" direction="">
+            {props.cursoMarquee}
+          </marquee>
+        </h4>
+        <h4
+          className="text-curso"
+          title="Pós Desenvolvimento Fullstack de Sistemas Modernos para Nuvem (Cloud Native)"
+        >
+          {props.curso}
+        </h4>
         <p>{props.escola}</p>
+        <small className="status"> {props.status}</small>
       </div>
     </>
   );

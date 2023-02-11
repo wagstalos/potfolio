@@ -124,11 +124,6 @@ h5 {
   background-color: transparent;
 }
 
-/* h2:after {
-  content: " _";
-  color: #08b9bb
-} */
-
 .wp-slider {
   position: relative;
   cursor: grab;
@@ -137,11 +132,11 @@ h5 {
 .wp-slider:after {
   content: "";
   position: absolute;
-  right: -4px;
+  right: -1px;
   top: 0;
-  background: linear-gradient(270deg, var(--white) -16.41%, transparent);
+  background: linear-gradient(270deg, var(--white) 0.41%, transparent);
   height: 100%;
-  width: 20%;
+  width: 5%;
   z-index: 2;
 }
 
