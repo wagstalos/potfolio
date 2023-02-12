@@ -4,10 +4,9 @@
 }
 
 .card-formacao {
-    background-color: #f8f8f8;
+    background-color: rgba(241, 240, 245, 0.55);
     border-radius: 22px;
     padding: 10px;
-    border: 1px solid #efeded;
     width: 262px;
 }
 
@@ -28,19 +27,24 @@
 .icon-formacao {
     width: 29px;
     padding: 7px;
-    background-color: #ebebeb;
+    background-color: #ececf3;
     border-radius: 13px;
 }
 
 .status {
     border-radius: 17px;
     color: #6e8081;
-    float: right;
+    /* float: right; */
     margin-top: -13px;
+    margin-top: 8px;
+    background-color: rgb(76 175 80 / 20%);
+    color: #0f7813;
+    padding: 0 10px;
 }
 
-.status:first-child {
-    color: red;
+.in-progress .status {
+    color: #c52f00;
+    background-color: #ff57222e;
 }
 
 .status:empty {

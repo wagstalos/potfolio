@@ -19,10 +19,8 @@ export default function Card(props) {
             {props.cursoMarquee}
           </marquee>
         </h4>
-        <h4
-          className="text-curso"
-          title="Pós Desenvolvimento Fullstack de Sistemas Modernos para Nuvem (Cloud Native)"
-        >
+
+        <h4 className="text-curso" title={props.title}>
           {props.curso}
         </h4>
         <p>{props.escola}</p>

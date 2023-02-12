@@ -69,6 +69,23 @@ function Bio() {
           <h4 className="color-green-bold">Quem sou</h4>
           <div className="flex name-main">
             <div className="typing">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-code"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="#08b9bb"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M7 8l-4 4l4 4"></path>
+                <path d="M17 8l4 4l-4 4"></path>
+                <path d="M14 4l-4 16"></path>
+              </svg>
               <h1 className="typing-effect">Wagner Silva</h1>
             </div>
             <br />
@@ -78,7 +95,7 @@ function Bio() {
               rel="noopener noreferrer"
             >
               <img
-                className="img-expeditioner"
+                className="img-ranger"
                 src={imageRanger}
                 alt="Badge do Ranger trailhead"
               />

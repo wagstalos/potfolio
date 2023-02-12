@@ -33,10 +33,14 @@ li {
     margin-top: 20px;
 }
 
-.img-expeditioner {
+.img-ranger {
     width: 68px;
     border-radius: 0;
     margin-left: 10px;
+    position: absolute;
+    top: 8px;
+    left: 3px;
+    z-index: 3;
 }
 
 .name-main {
@@ -170,8 +174,8 @@ a {
         margin-top: -16px;
     }
 
-    .img-expeditioner {
-        width: 50px;
+    .img-ranger {
+        width: 54px;
     }
 }
 

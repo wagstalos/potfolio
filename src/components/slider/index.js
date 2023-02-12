@@ -35,12 +35,13 @@ export default function Slider() {
         onSwiper={(swiper) => console.log(swiper)}
         className="container"
       >
-        <SwiperSlide>
+        <SwiperSlide className="in-progress">
           <Card
             ano="2023-2023"
-            curso="Pós Des. Fullstack de Sistemas Modernos para Nuvem (Cloud Native)"
-            escola="Unesc"
+            curso="Des. Fullstack de Sistemas Modernos para Nuvem (Cloud Native)"
+            escola="Pós-Graduação Unesc"
             status="Em andamento"
+            title="Pós Desenvolvimento Fullstack de Sistemas Modernos para Nuvem (Cloud Native)"
           />
         </SwiperSlide>
 
@@ -48,8 +49,9 @@ export default function Slider() {
           <Card
             ano="2021-2022"
             curso="Front-end Avançado"
-            escola="Codeboost"
+            escola="Curso Codeboost"
             status="Concluído"
+            title="Front-end Avançado"
           />
         </SwiperSlide>
 
@@ -57,8 +59,9 @@ export default function Slider() {
           <Card
             ano="2019-2020"
             curso="English Course - Basic"
-            escola="Smile English"
+            escola="Curso Smile English"
             status="Concluído"
+            title="English Course - Basic"
           />
         </SwiperSlide>
 
@@ -66,7 +69,7 @@ export default function Slider() {
           <Card
             ano="2019-2020"
             curso="Desenvolvedor Front-end"
-            escola="Treina Web"
+            escola="Curso Treina Web"
             status="Concluído"
           />
         </SwiperSlide>
@@ -75,7 +78,7 @@ export default function Slider() {
           <Card
             ano="2014 - 2016"
             curso="Programação de jogos digitais"
-            escola="Etec Guaracy Silveira"
+            escola="Curso técnico Etec Guaracy"
             status="Concluído"
           />
         </SwiperSlide>
@@ -84,7 +87,7 @@ export default function Slider() {
           <Card
             ano="2010-2012"
             curso="Design Gráfico"
-            escola="Universidade Paulista"
+            escola="Graduação Unip"
             status="Concluído"
           />
         </SwiperSlide>
