@@ -1,4 +1,5 @@
 import "./style.css";
+import imagePerfil from "../../img/teste-perfil.jpg";
 export default function Resume() {
   return (
     <>
@@ -89,7 +90,7 @@ export default function Resume() {
                 <h2>Perfil Guerreiro</h2>
               </div>
 
-              <ol>
+              {/* <ol>
                 <li>
                   Crença de que alcançar metas e resultados dão sentido à vida;
                 </li>
@@ -106,11 +107,11 @@ export default function Resume() {
                   Procuram soluções fora do convencional para atingir seus
                   objetivos.
                 </li>
-              </ol>
-
+              </ol> */}
+              <img src={imagePerfil} alt="" />
               <p>
                 {" "}
-                <i>fonte: pravaler.com.br</i>{" "}
+                <i>fonte: mindsight.com.br</i>{" "}
               </p>
 
               <a href="#" class="modal__fechar">

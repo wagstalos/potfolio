@@ -1,3 +1,5 @@
+import iconAssociate from "../../img/associate.png";
+
 export default function Sociais() {
   return (
     <>
@@ -79,8 +81,8 @@ export default function Sociais() {
           <polyline points="3 7 12 13 21 7" />
         </svg>
       </a>
-<br />
-      <a href="https://trailblazer.me/id/wdasilva13">
+      <br />
+      {/* <a href="https://trailblazer.me/id/wdasilva13">
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 162.24 162.22" className="trailhead">
           <path
@@ -119,6 +121,14 @@ export default function Sociais() {
             <path d="m34 118.61-8.64 9.86h17.27z" />
           </g>
         </svg>
+      </a> */}
+
+      <a href="https://trailblazer.me/id/wdasilva13" target="blank">
+        <img
+          src={iconAssociate}
+          alt="icon associate"
+          style={{ width: "100px" }}
+        />
       </a>
     </>
   );

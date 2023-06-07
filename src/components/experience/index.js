@@ -5,13 +5,6 @@ import imageAvatar from "../../img/avatarSF.png";
 export default function Experience() {
   const items = [
     {
-      title: "Ago 2011",
-      cardTitle: "Estagiário Dev. Games",
-      cardSubtitle: "(Graduando)",
-      cardDetailedText:
-        " Desenvolvimento de games como ActionScript, ajudava na produção de games em Flash.",
-    },
-    {
       title: "Ago 2012",
       cardTitle: "Desenvolvedor de Games ",
       cardSubtitle: "(Graduando)",
@@ -19,14 +12,7 @@ export default function Experience() {
         "Já era responsável pela parte de desenvolvimento de games da empresa, como primeira mudança resolvi mudar o desenvolvimento de games antes em Flash para HTML5! ",
     },
     {
-      title: "Jan 2015",
-      cardTitle: "Lead de Games",
-      cardSubtitle: "(DP Content)",
-      cardDetailedText:
-        "Liderava uma equipe para desenvolvimento de jogos educativos para clientes como: SER Educacional, Ânima, Sanofi, Globo entre outros. ",
-    },
-    {
-      title: "Mar 2018",
+      title: "Jan 2018",
       cardTitle: "Lead Games e Desenvolvedor web ",
       cardSubtitle: "(DP Content)",
       cardDetailedText:
@@ -34,17 +20,17 @@ export default function Experience() {
     },
     {
       title: "Out 2021",
-      cardTitle: "Desenvolvedor Front-end ",
-      cardSubtitle: "(Atonit by Salesforce)",
-      cardDetailedText:
-        "Desenvolvimento VueJS, Landing Pages, SEO, Site corporativos, Emails Marketing, E-Commerce(SFCC). Desenvolvemos lojas para clientes como : Cacau Show, Bold  ",
-    },
-    {
-      title: "Mar 2022",
-      cardTitle: "Software Engineer ",
+      cardTitle: "Software Engineer - Frontend",
       cardSubtitle: "(Salesforce)",
       cardDetailedText:
-        "Desenvolvimento Commerce Cloud com o Salesforce (SFCC), SASS, ISML E Javascript utilizando metodologias Agéis Kanban e Scrum. Desenvolvemos lojas para clientes como : Tramontina, Copercana, Fini e Bold.",
+        "Desenvolvimento E-Commerce Commerce Cloud com o Salesforce (SFCC),VueJS, SASS,Emails Marketing ISML E Javascript utilizando metodologias Agéis Kanban e Scrum. Desenvolvemos lojas para clientes como : Tramontina, Copercana, Fini e Bold.",
+    },
+    {
+      title: "Jan 2023",
+      cardTitle: "Frontend SFCC",
+      cardSubtitle: "(IBM)",
+      cardDetailedText:
+        "Desenvolvimento de lojas digitais com Salesforce commerce cloud SFCC, usando ISML, criando componentes Page designer (Page Design), Product Detail Page, Page List Product, content assets, SASS, javascript, jquery e ajudei no tagueamento para e-commerce (GA4) e semore utilizando metodologias Agéis Kanban e Scrum. Desenvolvemos a loja: Oi Place.",
     },
   ];
 
@@ -56,27 +42,24 @@ export default function Experience() {
         </div>
 
         <p className="experience-text">
-          Em 2011 desenvolvia games utilizando ActionScript. Em 2013 já como
-          ponto focal na área de dev games migramos para <b>HTML5</b> . Já como
-          lead, conduzia a equipe para desenvolvimento de jogos educativos para
-          clientes como ÂNIMA, SANOFI, GLOBO, entre outros. Em 2018 comecei
-          atuação em projetos WEB. Atuando com desenvolvimento de,
-          <b>
-            Landing Pages, PWA, Wordpress, SFCC(Salesforce Commerce Cloud) ,
-            sites corporativos, e-mails de marketing e Blogs
-          </b>{" "}
-          utilizando metodologias ágeis como <strong> Scrum e Kanban.</strong>
-          Em 2021 comecei trabalhar com commerce cloud e 2022 me tornei{" "}
-          <strong>Software Engineer</strong> na Saleforce.
+          Em 2011, eu comecei a desenvolver jogos utilizando ActionScript. Dois
+          anos depois, em 2013, nossa equipe migrou para HTML5, focando
+          principalmente no desenvolvimento de jogos. Como líder, eu conduzia a
+          equipe na criação de jogos educativos para clientes renomados, como
+          ÂNIMA, SANOFI, GLOBO, entre outros. A partir de 2018, expandi minha
+          atuação para projetos web, trabalhando no desenvolvimento de Landing
+          Pages, PWAs, Wordpress, SFCC (Salesforce Commerce Cloud), sites
+          corporativos, e-mails de marketing e Blogs. Durante esse período,
+          utilizei metodologias ágeis, como Scrum e Kanban. No ano de 2021,
+          comecei a trabalhar com <strong>Commerce Cloud</strong> e, em 2022,
+          conquistei o cargo de Engenheiro de Software na Salesforce.
         </p>
       </div>
 
       <div style={{ width: "100%", height: "auto" }}>
         <Chrono
-          mode="VERTICAL_ALTERNATING"
+          mode="VERTICAL"
           scrollable={{ scrollbar: true }}
-          slideShow
-          slideItemDuration={4500}
           items={items}
           useReadMore={false}
           theme={{
