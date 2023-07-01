@@ -2,6 +2,7 @@ import "./style.css";
 import React, { useState, useEffect } from "react";
 
 import imageRanger from "../../img/ranger.png";
+import imageWagner from "../../img//front.png";
 
 import a1 from "../../img/a1.jpg";
 import a2 from "../../img/a2.jpg";
@@ -107,7 +108,9 @@ function Bio() {
       </div>
 
       <div>
-        <h2 className="mt-50">Skills </h2>
+        <img className="img-banner" src={imageWagner} alt="Imagem do autor" />
+        <h2>Skills </h2>
+
         <Skills />
 
         <h2 className="mt-50"> Formação</h2>

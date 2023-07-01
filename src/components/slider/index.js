@@ -9,7 +9,7 @@ export default function Slider() {
   return (
     <div className="wp-slider">
       <Swiper
-        spaceBetween={15}
+        spaceBetween={20}
         slidesPerView={1}
         breakpoints={{
           // when window width is >= 640px
@@ -35,12 +35,12 @@ export default function Slider() {
         onSwiper={(swiper) => console.log(swiper)}
         className="container"
       >
-        <SwiperSlide className="in-progress">
+        <SwiperSlide>
           <Card
             ano="2023-2023"
             curso="Des. Fullstack de Sistemas Modernos para Nuvem (Cloud Native)"
             escola="Pós-Graduação Unesc"
-            status="Em andamento"
+            status="Concluído"
             title="Pós Desenvolvimento Fullstack de Sistemas Modernos para Nuvem (Cloud Native)"
           />
         </SwiperSlide>

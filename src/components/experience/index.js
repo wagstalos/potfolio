@@ -42,17 +42,14 @@ export default function Experience() {
         </div>
 
         <p className="experience-text">
-          Em 2011, eu comecei a desenvolver jogos utilizando ActionScript. Dois
-          anos depois, em 2013, nossa equipe migrou para HTML5, focando
-          principalmente no desenvolvimento de jogos. Como líder, eu conduzia a
-          equipe na criação de jogos educativos para clientes renomados, como
-          ÂNIMA, SANOFI, GLOBO, entre outros. A partir de 2018, expandi minha
-          atuação para projetos web, trabalhando no desenvolvimento de Landing
+          Atuação em projetos web, trabalhando no desenvolvimento de Landing
           Pages, PWAs, Wordpress, SFCC (Salesforce Commerce Cloud), sites
           corporativos, e-mails de marketing e Blogs. Durante esse período,
           utilizei metodologias ágeis, como Scrum e Kanban. No ano de 2021,
           comecei a trabalhar com <strong>Commerce Cloud</strong> e, em 2022,
-          conquistei o cargo de Engenheiro de Software na Salesforce.
+          conquistei o cargo de Engenheiro de Software na{" "}
+          <strong>Salesforce</strong> , em 2023 atuei em umas das maiores
+          empresas do mundo <strong>IBM</strong>.
         </p>
       </div>
 

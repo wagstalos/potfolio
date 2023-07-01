@@ -58,7 +58,7 @@ li {
 }
 
 .mt-50 {
-    margin-top: 50px;
+    margin-top: 120px;
 }
 
 .mr-10 {
@@ -143,6 +143,10 @@ a {
 
     svg {
         text-align: center;
+    }
+
+    .img-banner{
+        margin-top: 40px;
     }
 
     .flex-between {

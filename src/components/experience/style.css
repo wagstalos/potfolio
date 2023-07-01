@@ -1,9 +1,9 @@
 .experience-image {
-    width: 30%;
+    width: 50%;
 }
 
 .experience-text {
-    width: 70%;
+    width: 50%;
 }
 
 @media only screen and (max-width: 600px) {
