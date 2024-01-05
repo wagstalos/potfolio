@@ -72,11 +72,20 @@
     margin-right: 5px;
 }
 
+.stats {
+    width: 45%;
+}
+
 
 @media only screen and (max-width: 480px) {
     .flex .btns-resume {
         flex-direction: column;
     }
+
+    .stats {
+        width: 80%;
+    }
+
 
     .wrapper a {
         width: 100%;

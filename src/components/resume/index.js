@@ -120,24 +120,19 @@ export default function Resume() {
             </div>
           </div>
         </div>
-        <div className="flex-container flex-wrap m-50 ">
-          <div className="mr-10">
-            <img
+        <div className="flex-container flex-wrap m-50 stats">
+          <picture>
+            <source
               className="img-stats"
-              src="https://camo.githubusercontent.com/7d732602e028285e90f6e7511544777bbbbd7db5e553b764b71e3e8a90650f16/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d7761677374616c6f73"
-              alt="Anurag's GitHub stats"
-              data-canonical-src="https://github-readme-stats.vercel.app/api?username=wagstalos"
+              srcset="https://github-readme-stats.vercel.app/api?username=wagstalos&show_icons=true&theme=dracula&text_color=434d58&bg_color=F7F7FA&hide_border=true&title_color=08b9bb"
+              media="(prefers-color-scheme: dark)"
             />
-          </div>
-
-          <div>
-            <img
-              className="img-stats"
-              src="https://camo.githubusercontent.com/bd3e5aa786d946cd66a1ecfbfc4c4f4abb730d83dc8e1f09433422523115b22d/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d7761677374616c6f73266c61796f75743d636f6d70616374"
-              alt="Top Langs"
-              data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs/?username=wagstalos&amp;layout=compact"
+            <source
+              srcset="https://github-readme-stats.vercel.app/api?username=wagstalos&show_icons=true"
+              media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
             />
-          </div>
+            <img src="https://github-readme-stats.vercel.app/api?username=wagstalos&show_icons=true" />
+          </picture>
         </div>
       </div>
     </>

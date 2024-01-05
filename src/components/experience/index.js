@@ -13,24 +13,31 @@ export default function Experience() {
     },
     {
       title: "Jan 2018",
-      cardTitle: "Lead Games e Desenvolvedor web ",
+      cardTitle: "Leader Games e Dev. Web",
       cardSubtitle: "(DP Content)",
       cardDetailedText:
         "Comecei auxiliar também em alguns projetos web. Desenvolvimento de Landing Pages, Site corporativos, Emails Marketing, PWA e Wordpress",
     },
     {
       title: "Out 2021",
-      cardTitle: "Software Engineer - Frontend",
+      cardTitle: "Software Engineer Frontend - Pleno",
       cardSubtitle: "(Salesforce)",
       cardDetailedText:
         "Desenvolvimento E-Commerce Commerce Cloud com o Salesforce (SFCC),VueJS, SASS,Emails Marketing ISML E Javascript utilizando metodologias Agéis Kanban e Scrum. Desenvolvemos lojas para clientes como : Tramontina, Copercana, Fini e Bold.",
     },
     {
       title: "Jan 2023",
-      cardTitle: "Frontend SFCC",
+      cardTitle: "Frontend SFCC - Sênior",
       cardSubtitle: "(IBM)",
       cardDetailedText:
-        "Desenvolvimento de lojas digitais com Salesforce commerce cloud SFCC, usando ISML, criando componentes Page designer (Page Design), Product Detail Page, Page List Product, content assets, SASS, javascript, jquery e ajudei no tagueamento para e-commerce (GA4) e semore utilizando metodologias Agéis Kanban e Scrum. Desenvolvemos a loja: Oi Place.",
+        "Desenvolvimento de lojas digitais com Salesforce commerce cloud SFCC, usando ISML, criando componentes Page designer (Page Design), Product Detail Page, Page List Product, content assets, SASS, javascript, jquery e ajudei no tagueamento para e-commerce (GA4) e semore utilizando metodologias Agéis Kanban e Scrum. Go Live: Oi Place.",
+    },
+    {
+      title: "Jul 2023",
+      cardTitle: "Frontend SFCC - Sênior",
+      cardSubtitle: "(Backlgrs)",
+      cardDetailedText:
+        "Desenvolvimento de lojas digitais e sustentação utilizando Salesforce Commerce Cloud (SFCC), com expertise em ISML. Desenvolvimento de componentes no Page Designer, incluindo páginas de detalhes de produtos (Product Detail Page), listagem de produtos (Page List Product), ativos de conteúdo (content assets), aplicação de SASS, implementação de scripts em JavaScript e jQuery. Contribuí ativamente no tagueamento para e-commerce (GA4), seguindo sempre as metodologias ágeis Kanban e Scrum.",
     },
   ];
 
