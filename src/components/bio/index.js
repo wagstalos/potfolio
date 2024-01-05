@@ -2,7 +2,8 @@ import "./style.css";
 import React, { useState, useEffect } from "react";
 
 import imageRanger from "../../img/ranger.png";
-import imageWagner from "../../img//front.png";
+import imageWagner from "../../img/front.webp";
+import imageWagnerMob from "../../img/front-mob.png";
 
 import a1 from "../../img/a1.jpg";
 import a2 from "../../img/a2.jpg";
@@ -108,7 +109,22 @@ function Bio() {
       </div>
 
       <div>
-        <img className="img-banner" src={imageWagner} alt="Imagem do autor" />
+        {/* <a href="https://blog-cms-hygraph.vercel.app/" target="_blank">
+          <img className="img-banner" src={imageWagner} alt="Imagem do autor" />
+        </a> */}
+
+        <a href="https://blog-cms-hygraph.vercel.app/" target="_blank">
+          <picture>
+            <source media="(min-width: 768px)" srcset={imageWagner} />
+
+            <img
+              src={imageWagnerMob}
+              alt="Imagem do autor"
+              class="img-banner"
+            />
+          </picture>
+        </a>
+
         <h2>Skills </h2>
 
         <Skills />
