@@ -1,10 +1,3 @@
-.icon-bg {
-    background-color: rgba(15, 204, 206, .1);
-    padding: 5px;
-    border-radius: 10px;
-    margin-right: 5px;
-}
-
 h1 {
     font-size: 3em;
 }
@@ -23,6 +16,13 @@ ul {
 
 li {
     list-style-type: none;
+}
+
+.icon-bg {
+    background-color: rgba(15, 204, 206, .1);
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 5px;
 }
 
 .color-green-bold {
@@ -77,6 +77,22 @@ li {
     align-items: center;
     justify-content: center;
     display: flex;
+    transition: background-color 0.5s ease;
+}
+
+.btn-download:hover {
+    background-color: var(--secundary-color);
+}
+
+.btn-hero {
+    justify-content: center;
+    width: 35%;
+    height: 40px;
+    white-space: no-wrap;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 0;
+
 }
 
 a {
@@ -145,7 +161,7 @@ a {
         text-align: center;
     }
 
-    .img-banner{
+    .img-banner {
         margin-top: 40px;
     }
 
@@ -161,6 +177,10 @@ a {
 @media only screen and (max-width: 480px) {
     .btn-download {
         margin: 15px 0;
+    }
+
+    .btn-hero {
+        width: 100%;
     }
 
     .wrapper .btn-test {

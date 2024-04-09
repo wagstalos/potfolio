@@ -68,7 +68,7 @@ function Bio() {
         </div>
 
         <div>
-          <h4 className="color-green-bold">Quem sou</h4>
+          <h4 className="color-green-bold">Olá, seja bem-vindo(a) 👋</h4>
           <div className="flex name-main">
             <div className="typing">
               <svg

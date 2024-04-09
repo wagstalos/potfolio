@@ -8,7 +8,7 @@
     width: 100%;
 }
 
-.wrapper a {
+.btn-test {
     background-color: rgba(15, 204, 206, .1);
     padding: 5px 21px;
     border-radius: 10px;
@@ -22,7 +22,11 @@
     justify-content: center;
     display: flex;
     white-space: nowrap;
+    transition: background-color 0.5s ease;
+}
 
+.btn-test:hover {
+    background-color: rgba(15, 204, 206, .3);
 }
 
 .modal {
