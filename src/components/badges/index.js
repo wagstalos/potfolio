@@ -62,15 +62,12 @@ export default function Badges() {
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
-          class="icon icon-tabler icons-tabler-outline icon-tabler-device-imac-code"
+          class="icon icon-tabler icons-tabler-outline icon-tabler-code-circle"
         >
           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <path d="M11.5 17h-7.5a1 1 0 0 1 -1 -1v-12a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v9" />
-          <path d="M3 13h18" />
-          <path d="M8 21h3.5" />
-          <path d="M10 17l-.5 4" />
-          <path d="M20 21l2 -2l-2 -2" />
-          <path d="M17 17l-2 2l2 2" />
+          <path d="M10 14l-2 -2l2 -2" />
+          <path d="M14 10l2 2l-2 2" />
+          <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
         </svg>
         Frontend{" "}
       </p>
@@ -93,7 +90,7 @@ export default function Badges() {
           <path d="M12 7v2" />
           <path d="M12 15v2" />
         </svg>
-        Freelance{" "}
+        Freelancer{" "}
       </p>
     </div>
   );
