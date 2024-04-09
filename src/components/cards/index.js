@@ -10,6 +10,7 @@ export default function Card(props) {
             className="icon-formacao"
             src={iconFormacao}
             alt="icone formatura"
+            title="Formação"
           />
           <h3>{props.ano}</h3>
         </div>

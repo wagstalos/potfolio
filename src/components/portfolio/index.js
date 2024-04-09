@@ -53,7 +53,7 @@ class Portfolio extends Component {
         <div className="flex-container flex-wrap flex center">
           {posts.reverse().map((post) => (
             <div className="card" key={post.id}>
-              <img src={post.img} alt={post.title} />
+              <img src={post.img} alt={post.title} title={post.title} />
               <p className="tag-new">{post.new}</p>
               <h3 className="m-14">{post.title}</h3>
               <p className="m-14">{post.body} </p>
@@ -65,6 +65,7 @@ class Portfolio extends Component {
                 className="botao"
                 href={post.url}
                 target="_blank"
+                title={post.title}
                 rel="noreferrer"
               >
                 Veja mais

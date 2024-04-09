@@ -3,7 +3,7 @@ import iconAssociate from "../../img/associate.png";
 export default function Sociais() {
   return (
     <>
-      <a href="https://github.com/wagstalos">
+      <a href="https://github.com/wagstalos" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="icon icon-tabler icon-tabler-brand-github"
@@ -21,7 +21,10 @@ export default function Sociais() {
         </svg>
       </a>
 
-      <a href="https://www.linkedin.com/in/wagner-silva-6a163555/">
+      <a
+        href="https://www.linkedin.com/in/wagner-silva-6a163555/"
+        target="_blank"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="icon icon-tabler icon-tabler-brand-linkedin"
@@ -43,7 +46,7 @@ export default function Sociais() {
         </svg>
       </a>
 
-      <a href="https://www.instagram.com/wagner.paulo89/">
+      <a href="https://www.instagram.com/wagner.paulo89/" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="icon icon-tabler icon-tabler-brand-instagram"
@@ -63,7 +66,7 @@ export default function Sociais() {
         </svg>
       </a>
 
-      <a href="mailto:wagstalos@hotmail.com">
+      <a href="mailto:wagstalos@hotmail.com" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="icon icon-tabler icon-tabler-mail"
@@ -82,9 +85,12 @@ export default function Sociais() {
         </svg>
       </a>
       <br />
-      {/* <a href="https://trailblazer.me/id/wdasilva13">
-
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 162.24 162.22" className="trailhead">
+      <a href="https://trailblazer.me/id/wdasilva13" target="_blank">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 162.24 162.22"
+          className="trailhead"
+        >
           <path
             d="m84 162.22h.4a144.79 144.79 0 0 0 75.33-24.22 5.81 5.81 0 0 0 2.5-4.75v-11.58a129.65 129.65 0 0 0 -78.82-121.2 5.79 5.79 0 0 0 -4.58 0 129.65 129.65 0 0 0 -78.83 121.2v11.58a5.82 5.82 0 0 0 2.39 4.75 144.85 144.85 0 0 0 78.73 24.27z"
             fill="#032e61"
@@ -121,13 +127,14 @@ export default function Sociais() {
             <path d="m34 118.61-8.64 9.86h17.27z" />
           </g>
         </svg>
-      </a> */}
+      </a>
 
       <a href="https://trailblazer.me/id/wdasilva13" target="blank">
         <img
           src={iconAssociate}
           alt="icon associate"
-          style={{ width: "100px" }}
+          title="Associate"
+          style={{ width: "90px" }}
         />
       </a>
     </>

@@ -32,6 +32,7 @@ export default function Resume() {
               className="btn-download"
               href="curriculo_wagner.pdf"
               download="curriculo_wagner.pdf"
+              title="Baixar curriculum em PDF"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +130,11 @@ export default function Resume() {
                   objetivos.
                 </li>
               </ol> */}
-              <img src={imagePerfil} alt="" />
+              <img
+                src={imagePerfil}
+                alt="imagem perfil"
+                title="imagem perfil"
+              />
               <p>
                 {" "}
                 <i>fonte: mindsight.com.br</i>{" "}
@@ -152,7 +157,7 @@ export default function Resume() {
               srcset="https://github-readme-stats.vercel.app/api?username=wagstalos&show_icons=true"
               media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
             />
-            <img src="https://github-readme-stats.vercel.app/api?username=wagstalos&show_icons=true" />
+            <img src="https://github-readme-stats.vercel.app/api?username=wagstalos&show_icons=true" title="gitstatus" alt="git status"/>
           </picture>
         </div>
       </div>

@@ -61,7 +61,8 @@ function Bio() {
           <img
             className="img-bio blob blue"
             src={getPicture(index)}
-            alt="Imagem do autor"
+            alt="Imagem do Wagner Silva"
+            title="Wagner Silva"
           />
           <h5>Como me encontrar:</h5>
           <Sociais />
@@ -100,6 +101,7 @@ function Bio() {
                 className="img-ranger"
                 src={imageRanger}
                 alt="Badge do Ranger trailhead"
+                title="Badge do Ranger trailhead"
               />
             </a>
           </div>
@@ -125,8 +127,9 @@ function Bio() {
 
             <img
               src={imageWagnerMob}
-              alt="Imagem do autor"
+              alt="Imagem do Wagner"
               class="img-banner"
+              title="Imagem  do Wagner"
             />
           </picture>
         </a>

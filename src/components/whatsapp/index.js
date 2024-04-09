@@ -1,7 +1,7 @@
 export default function Whatsapp() {
   return (
     <div className="btn-whats">
-      <a href="https://api.whatsapp.com/send?l=pt_BR&phone=5511999488027">
+      <a href="https://api.whatsapp.com/send?l=pt_BR&phone=5511999488027" title="whatsapp">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="icon icon-tabler icon-tabler-brand-whatsapp"

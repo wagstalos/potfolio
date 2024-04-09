@@ -34,6 +34,7 @@ class Toggle extends React.Component {
             className="btn-download btn-hero"
             href="curriculo_wagner.pdf"
             download="curriculo_wagner.pdf"
+            title="Download CV as PDF"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

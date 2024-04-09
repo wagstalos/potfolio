@@ -67,7 +67,7 @@ export default function Experience() {
       </h2>
       <div className="flex experience">
         <div className="experience-image">
-          <img src={imageAvatar} alt="Wagner Silva" />
+          <img src={imageAvatar} alt="Wagner Silva" title="Wagner Silva" />
         </div>
 
         <div className="experience-text">
