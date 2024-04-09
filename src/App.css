@@ -19,6 +19,10 @@ html {
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--white);
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 img {
@@ -110,6 +114,14 @@ h5 {
   width: 50px;
 }
 
+.line {
+  width: 80%;
+  border-bottom: #ececec 1px solid;
+  opacity: 1;
+  padding: 5px;
+  margin: 0 auto;
+  margin-bottom: 14px;
+}
 
 .btn-whats svg {
   margin-right: 0;

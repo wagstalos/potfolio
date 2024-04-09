@@ -65,6 +65,7 @@ function Bio() {
             title="Wagner Silva"
           />
           <h5>Como me encontrar:</h5>
+         
           <Sociais />
         </div>
 
@@ -108,7 +109,6 @@ function Bio() {
 
           {/* descrição */}
           <Toogle />
-
         </div>
       </div>
 
@@ -133,7 +133,7 @@ function Bio() {
             />
           </picture>
         </a>
-        
+
         <Experience />
       </div>
       <Whatsapp />

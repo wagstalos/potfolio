@@ -85,6 +85,9 @@ export default function Sociais() {
         </svg>
       </a>
       <br />
+
+      <div className="line"></div>
+
       <a href="https://trailblazer.me/id/wdasilva13" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
