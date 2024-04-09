@@ -1,4 +1,5 @@
 import React from "react";
+import Badge from "../badges";
 
 class Toggle extends React.Component {
   constructor(props) {
@@ -25,6 +26,9 @@ class Toggle extends React.Component {
         {/* <button onClick={this.handleClick}>
           {this.state.isToggleOn ? "Bio in english" : "Mudar para Português"}
         </button> */}
+
+        <Badge />
+
         <div>
           <a
             className="btn-download btn-hero"

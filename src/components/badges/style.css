@@ -1,0 +1,30 @@
+.badges {
+    display: flex;
+    justify-content: space-between;
+}
+
+.badges .icon {
+    background-color: #08b9bb;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.badges p {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: #030E15;
+    font-weight: 600;
+
+    border: solid #F6F6F6 1px;
+    padding: 4px;
+    padding-right: 16px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .badges {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+}

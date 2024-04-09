@@ -104,15 +104,21 @@ function Bio() {
             </a>
           </div>
 
+          {/* descrição */}
           <Toogle />
+
         </div>
       </div>
 
       <div>
-        {/* <a href="https://blog-cms-hygraph.vercel.app/" target="_blank">
-          <img className="img-banner" src={imageWagner} alt="Imagem do autor" />
-        </a> */}
+        <Skills />
 
+        {/* formação */}
+        <Slider />
+
+        <Resume />
+
+        {/* banner */}
         <a href="https://blog-cms-hygraph.vercel.app/" target="_blank">
           <picture>
             <source media="(min-width: 768px)" srcset={imageWagner} />
@@ -124,17 +130,7 @@ function Bio() {
             />
           </picture>
         </a>
-
-        <h2>Skills </h2>
-
-        <Skills />
-
-        <h2 className="mt-50"> Formação</h2>
-        <Slider />
-
-        <Resume />
-
-        <h2>Experiência</h2>
+        
         <Experience />
       </div>
       <Whatsapp />

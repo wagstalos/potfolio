@@ -90,6 +90,11 @@ h5 {
   justify-content: center;
 }
 
+.sub-title {
+  display: flex;
+  align-items: center;
+}
+
 .btn-whats {
   position: fixed;
   bottom: 20px;
