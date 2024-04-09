@@ -5,7 +5,7 @@ import "./style.css";
 export default function Skills() {
   return (
     <div className="wp-slider">
-      <h2 className="sub-title">
+      <h2 className="sub-title mt-50">
         {" "}
         <svg
           xmlns="http://www.w3.org/2000/svg"

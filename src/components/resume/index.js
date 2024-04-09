@@ -3,7 +3,7 @@ import imagePerfil from "../../img/teste-perfil.jpg";
 export default function Resume() {
   return (
     <>
-      <h2 className="mt-50">
+      <h2 className="sub-title mt-50">
         {" "}
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@ export default function Resume() {
           <path d="M11 12.5a1.5 1.5 0 0 0 -3 0v3a1.5 1.5 0 0 0 3 0" />
           <path d="M13 11l1.5 6l1.5 -6" />
         </svg>{" "}
-        Currículo e teste comportamental
+        Currículo e teste
       </h2>
       <div className="flex flex-between flex-wrap">
         <div className="flex btns-resume">
@@ -157,7 +157,11 @@ export default function Resume() {
               srcset="https://github-readme-stats.vercel.app/api?username=wagstalos&show_icons=true"
               media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
             />
-            <img src="https://github-readme-stats.vercel.app/api?username=wagstalos&show_icons=true" title="gitstatus" alt="git status"/>
+            <img
+              src="https://github-readme-stats.vercel.app/api?username=wagstalos&show_icons=true"
+              title="gitstatus"
+              alt="git status"
+            />
           </picture>
         </div>
       </div>

@@ -16,10 +16,12 @@
     color: #030E15;
     font-weight: 600;
 
-    border: solid #F6F6F6 1px;
+    border: solid #ececec 1px;
     padding: 4px;
     padding-right: 16px;
     border-radius: 20px;
+
+    margin-right: 4px;
 }
 
 @media only screen and (max-width: 600px) {
