@@ -8,7 +8,7 @@
     "url": "https://profmanu.com/",
     "tag": "Site ",
     "categoria": "Bootstrap 5",
-    "new": "Novo projeto"
+    "new": ""
   },
   {
     "albumId": 1,
@@ -39,17 +39,6 @@
     "url": "https://wpsgames.com.br/sites/tractian/",
     "tag": "Landing Page",
     "categoria": "ReactJS",
-    "new": ""
-  },
-  {
-    "albumId": 1,
-    "id": 5,
-    "title": "Frequência RH",
-    "img": "https://frequenciarh.com.br/wp-content/themes/dpc/img/share.jpg",
-    "body": "Site para empresa de vagas de emprego e consultoria.",
-    "url": "https://frequenciarh.com.br/",
-    "tag": "Site",
-    "categoria": "WordPress",
     "new": ""
   },
   {
@@ -194,25 +183,14 @@
   },
   {
     "albumId": 1,
-    "id": 20,
-    "title": "Copiar & Colar",
-    "img": "https://wpsgames.com.br/img/domjs.jpg",
-    "body": "Manipulação DOM com JS",
-    "url": "https://wagstalos.github.io/copy-text-js/",
-    "tag": "DOM",
-    "categoria": "JS",
-    "new": "Novo projeto"
-  },
-  {
-    "albumId": 1,
     "id": 21,
-    "title": "Landing Page",
-    "img": "https://wpsgames.com.br/img/educar.jpg",
+    "title": "Landing Page promocional",
+    "img": "https://wpsgames.com.br/img/tecsany.jpg",
     "body": "Site responsivo sem framework",
-    "url": "https://wpsgames.com.br/sites/educar/",
+    "url": "https://wagstalos.github.io/codeboost-tecsany",
     "tag": "HTML 5",
     "categoria": "SASS",
-    "new": "Novo projeto"
+    "new": ""
   },
   {
     "albumId": 1,
@@ -222,8 +200,7 @@
     "body": "Criando modo dark com toggle.",
     "url": "https://wagstalos.github.io/vue3-basic/",
     "tag": "Modo dark",
-    "categoria": "Vue JS 3",
-    "new": "Novo projeto"
+    "categoria": "Vue JS 3"
   },
   {
     "albumId": 1,
@@ -233,7 +210,79 @@
     "body": "Cotação de moedas usando Vue",
     "url": "https://vue-api-moedas.vercel.app/",
     "tag": "API",
-    "categoria": "Vue JS 3",
-    "new": "Novo projeto"
+    "categoria": "Vue JS 3"
+  },
+  {
+    "albumId": 1,
+    "id": 24,
+    "title": "LP Descomplix inteligência",
+    "img": "https://wpsgames.com.br/img/capa-descomplix-inteligencia.jpg",
+    "body": "Landing page para startup",
+    "url": "https://inteligencia.descomplix.com/",
+    "tag": "HTML",
+    "categoria": "Startup"
+  },
+  {
+    "albumId": 1,
+    "id": 25,
+    "title": "Blog pessoal",
+    "img": "https://wpsgames.com.br/img/blog-cms.jpg",
+    "body": "Blog com CMS headless",
+    "url": "https://blog-cms-hygraph.vercel.app/",
+    "tag": "Blog",
+    "categoria": "NextJS"
+  },
+  {
+    "albumId": 1,
+    "id": 26,
+    "title": "Site Dr. Hilário",
+    "img": "https://wpsgames.com.br/img/site-sandro.jpg",
+    "body": "Landing page para médico",
+    "url": "https://sandrohilario.med.br/",
+    "tag": "Landing page",
+    "categoria": "HTML5"
+  },
+  {
+    "albumId": 1,
+    "id": 26,
+    "title": "E-commerce Prodigium",
+    "img": "https://wpsgames.com.br/img/ecommerce-prodigium.jpg",
+    "body": "E-commerce com javascript",
+    "url": "https://wpsgames.com.br/sites/magazine-prodigium/",
+    "tag": "E-commerce",
+    "categoria": "Tailwind CSS"
+  },
+  {
+    "albumId": 1,
+    "id": 27,
+    "title": "Valhalla Digital",
+    "img": "https://wpsgames.com.br/img/valhalla.png",
+    "body": "Landing page para startup",
+    "url": "https://valhalladigital.com.br/",
+    "tag": "Landing Page",
+    "categoria": "HTML 5",
+    "new":"Novo projeto"
+  },
+  {
+    "albumId": 1,
+    "id": 28,
+    "title": "Backlgrs",
+    "img": "https://wpsgames.com.br/img/backlgrs.png",
+    "body": "Landing page para uma empresa",
+    "url": "https://backlgrs.com.br/",
+    "tag": "Landing Page",
+    "categoria": "HTML 5",
+    "new":"Novo projeto"
+  },
+  {
+    "albumId": 1,
+    "id": 29,
+    "title": "Levo App",
+    "img": "https://wpsgames.com.br/img/levo.png",
+    "body": "Site para uma empresa de delivery",
+    "url": "https://levoapp.com.br/",
+    "tag": "Site",
+    "categoria": "Vue 3",
+    "new":"Novo projeto"
   }
 ]
