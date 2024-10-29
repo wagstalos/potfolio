@@ -7,7 +7,7 @@ import imageWagnerMob from "../../img/front-mob.png";
 
 import a1 from "../../img/a1.jpg";
 import a2 from "../../img/a2.jpg";
-import a3 from "../../img/avatar.png";
+import a3 from "../../img/avatar.jpg";
 import a4 from "../../img/a3.jpg";
 
 import Skills from "../skills";

@@ -256,5 +256,16 @@
     "tag": "Site",
     "categoria": "JS",
     "new":"Novo projeto"
+  },
+  {
+    "albumId": 1,
+    "id": 30,
+    "title": "NFT Boost",
+    "img": "https://wpsgames.com.br/img/nftboost.webp",
+    "body": "Site nftboost em NextJS",
+    "url": "https://nftboost.vercel.app/",
+    "tag": "Site",
+    "categoria": "NextJS",
+    "new":"Novo projeto"
   }
 ]
