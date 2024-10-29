@@ -12,26 +12,6 @@
   },
   {
     "albumId": 1,
-    "id": 2,
-    "title": "Redesign site C6",
-    "img": "https://wpsgames.com.br/img/c6bank.jpg",
-    "body": "Desafio do curso Codeboost ",
-    "url": "https://wpsgames.com.br/sites/c6bank/",
-    "tag": "Site",
-    "categoria": "Flexbox"
-  },
-  {
-    "albumId": 1,
-    "id": 3,
-    "title": "WPS Money",
-    "img": "https://wpsgames.com.br/img/wps-money.png",
-    "body": "Aplicativo Smart Money, controle dos seu gastos na sua mão.",
-    "url": "https://play.google.com/store/apps/details?id=br.com.wpsgames.wpsmoney_free",
-    "tag": "APP",
-    "categoria": "React Native"
-  },
-  {
-    "albumId": 1,
     "id": 4,
     "title": "Redesign Tractian",
     "img": "https://wpsgames.com.br/img/site-tractian.jpg",
@@ -43,7 +23,7 @@
   },
   {
     "albumId": 1,
-    "id": 6,
+    "id": 5,
     "title": "Virtual reality",
     "img": "https://raw.githubusercontent.com/wagstalos/virtual-reality/master/img/mockupVirtual.png",
     "body": "Landing page sobe Virtual reality",
@@ -53,7 +33,7 @@
   },
   {
     "albumId": 1,
-    "id": 7,
+    "id": 6,
     "title": "WPS Cripto",
     "img": "https://wpsgames.com.br/img/wps-cripto.jpg",
     "body": "Pegando os valores das Criptomoedas por uma API.",
@@ -63,7 +43,7 @@
   },
   {
     "albumId": 1,
-    "id": 8,
+    "id": 7,
     "title": "Plataforma EaD",
     "img": "https://wpsgames.com.br/img/ead.jpg",
     "body": "Desenvolvimento de uma plataforma completa usando o WP.",
@@ -73,7 +53,7 @@
   },
   {
     "albumId": 1,
-    "id": 9,
+    "id": 8,
     "title": "Redesign NEON",
     "img": "https://wagstalos.github.io/lp-neon/img/share-img.png",
     "body": "Redesign Landing Page NEON como HTML/SASS/JS.",
@@ -83,27 +63,7 @@
   },
   {
     "albumId": 1,
-    "id": 10,
-    "title": "Site para Descomplix",
-    "img": "https://wpsgames.com.br/img/site-descomplix.jpg",
-    "body": "Desenvolvimento de um site para Descomplix",
-    "url": "https://www.descomplix.com/",
-    "tag": "Site",
-    "categoria": "HTML 5"
-  },
-  {
-    "albumId": 1,
     "id": 11,
-    "title": "Aplicativo",
-    "img": "https://wpsgames.com.br/img/app-prodigium.png",
-    "body": "Desenvolvimento de um app para loja de suplementos!",
-    "url": "https://play.google.com/store/apps/details?id=com.wpsgames.prodigium&hl=pt",
-    "tag": "App",
-    "categoria": "Ionic"
-  },
-  {
-    "albumId": 1,
-    "id": 12,
     "title": "Scope Media",
     "img": "https://wpsgames.com.br/img/scope.jpg",
     "body": "Landing page para Scope",
@@ -114,16 +74,6 @@
   {
     "albumId": 1,
     "id": 13,
-    "title": "Concept Home",
-    "img": "https://wpsgames.com.br/img/concepthome.jpg",
-    "body": "Site para empresa Concept Home",
-    "url": "https://www.concepthomeinteriores.com/",
-    "tag": "Site",
-    "categoria": "WordPress"
-  },
-  {
-    "albumId": 1,
-    "id": 14,
     "title": "Space flight news",
     "img": "https://wpsgames.com.br/img/api-flight.jpg",
     "body": "Consumindo API com ReactJS",
@@ -133,7 +83,7 @@
   },
   {
     "albumId": 1,
-    "id": 15,
+    "id": 14,
     "title": "Criar de memes",
     "img": "https://wpsgames.com.br/img/meme.webp",
     "body": "Gerador de Memes divertidos para web!",
@@ -143,7 +93,7 @@
   },
   {
     "albumId": 1,
-    "id": 16,
+    "id": 15,
     "title": "Landing page",
     "img": "https://raw.githubusercontent.com/wagstalos/projeto-binance/master/img/lp-cripto-new.png",
     "body": "LP para venda de curso sobre criptomoedas.",
@@ -153,7 +103,7 @@
   },
   {
     "albumId": 1,
-    "id": 17,
+    "id": 16,
     "title": "Previsão do tempo",
     "img": "https://raw.githubusercontent.com/wagstalos/weather-api/master/img/screenshot.png",
     "body": "Consumindo API de previsão do tempo.",
@@ -163,7 +113,7 @@
   },
   {
     "albumId": 1,
-    "id": 18,
+    "id": 17,
     "title": "PokéApi",
     "img": "https://raw.githubusercontent.com/wagstalos/pokemon-api-codeboost/master/img/screen.png",
     "body": "Consumindo API do Pokemon.",
@@ -173,7 +123,7 @@
   },
   {
     "albumId": 1,
-    "id": 19,
+    "id": 18,
     "title": "Vue Mastery Socks",
     "img": "https://wpsgames.com.br/img/vue-intro.jpg",
     "body": "Conceitos básico do Vue 3",
@@ -183,7 +133,7 @@
   },
   {
     "albumId": 1,
-    "id": 21,
+    "id": 19,
     "title": "Landing Page promocional",
     "img": "https://wpsgames.com.br/img/tecsany.jpg",
     "body": "Site responsivo sem framework",
@@ -194,7 +144,7 @@
   },
   {
     "albumId": 1,
-    "id": 22,
+    "id": 20,
     "title": "Vue.js Modo Dark",
     "img": "https://wpsgames.com.br/img/dark.jpg",
     "body": "Criando modo dark com toggle.",
@@ -204,7 +154,7 @@
   },
   {
     "albumId": 1,
-    "id": 23,
+    "id": 21,
     "title": "Vue. API moedas",
     "img": "https://wpsgames.com.br/img/vue-intro.jpg",
     "body": "Cotação de moedas usando Vue",
@@ -214,7 +164,7 @@
   },
   {
     "albumId": 1,
-    "id": 24,
+    "id": 22,
     "title": "LP Descomplix inteligência",
     "img": "https://wpsgames.com.br/img/capa-descomplix-inteligencia.jpg",
     "body": "Landing page para startup",
@@ -224,7 +174,7 @@
   },
   {
     "albumId": 1,
-    "id": 25,
+    "id": 23,
     "title": "Blog pessoal",
     "img": "https://wpsgames.com.br/img/blog-cms.jpg",
     "body": "Blog com CMS headless",
@@ -234,7 +184,7 @@
   },
   {
     "albumId": 1,
-    "id": 26,
+    "id": 24,
     "title": "Site Dr. Hilário",
     "img": "https://wpsgames.com.br/img/site-sandro.jpg",
     "body": "Landing page para médico",
@@ -244,7 +194,7 @@
   },
   {
     "albumId": 1,
-    "id": 26,
+    "id": 25,
     "title": "E-commerce Prodigium",
     "img": "https://wpsgames.com.br/img/ecommerce-prodigium.jpg",
     "body": "E-commerce com javascript",
@@ -254,18 +204,18 @@
   },
   {
     "albumId": 1,
-    "id": 27,
+    "id": 26,
     "title": "Valhalla Digital",
     "img": "https://wpsgames.com.br/img/valhalla.png",
     "body": "Landing page para startup",
     "url": "https://valhalladigital.com.br/",
     "tag": "Landing Page",
     "categoria": "HTML 5",
-    "new":"Novo projeto"
+    "new":""
   },
   {
     "albumId": 1,
-    "id": 28,
+    "id": 27,
     "title": "Backlgrs",
     "img": "https://wpsgames.com.br/img/backlgrs.png",
     "body": "Landing page para uma empresa",
@@ -276,13 +226,35 @@
   },
   {
     "albumId": 1,
-    "id": 29,
-    "title": "Levo App",
-    "img": "https://wpsgames.com.br/img/levo.png",
-    "body": "Site para uma empresa de delivery",
-    "url": "https://levoapp.com.br/",
+    "id": 28,
+    "title": "Thiago Nonanka",
+    "img": "https://wpsgames.com.br/img/thiago.jpg",
+    "body": "Site para um Coach Fitness",
+    "url": "https://thiagononaka.com.br/",
     "tag": "Site",
-    "categoria": "Vue 3",
+    "categoria": "UI/UX",
+    "new":"Novo projeto"
+  },
+  {
+    "albumId": 1,
+    "id": 29,
+    "title": "Inovatech fictício",
+    "img": "https://wpsgames.com.br/img/inovatech.jpg",
+    "body": "Site para estudar Babilon.js",
+    "url": "https://wagstalos.github.io/empresa-tech/",
+    "tag": "Site",
+    "categoria": "babylon.js",
+    "new":"Novo projeto"
+  },
+  {
+    "albumId": 1,
+    "id": 30,
+    "title": "Livefacilities",
+    "img": "https://wpsgames.com.br/img/livefacilities.jpg",
+    "body": "Site para Livefacilities",
+    "url": "https://www.livefacilities.com.br/",
+    "tag": "Site",
+    "categoria": "JS",
     "new":"Novo projeto"
   }
 ]

@@ -19,13 +19,17 @@ class Toggle extends React.Component {
     return (
       <div>
         <p>
-          {this.state.isToggleOn
-            ? "Olá, sou Wagner Paulo <frontend />, formado em Design Gráfico (UNIP) , Desenvolvimento de Jogos Digitais(ETEC) e Pós-Graduado em Desenvolvimento Fullstack de Sistemas Modernos para Nuvem (UNESC). Apaixonado por tecnologias, trabalho com produção de sites, E-commerce (Salesforce SFCC) com cliente como Tramontina, Fini, São Vicente, Copercana, Oi Place,, WordPress, SEO, aplicativos, PWA e jogos digitais utlizando metodologias ágeis como Scrum e Kanban ."
-            : "Hi, I'm Wagner Paulo, <frontend />, graduated in Graphic Design (UNIP) and Digital Game Development (ETEC). I'm completely in love for technology, I work with website production, E-commerce (Salesforce SFCC)  WordPress, SEO, apps, PWA and digital games using agile methodologies such as Scrum and Kanban."}
+          Olá, sou Wagner Paulo, <b>Desenvolvedor Fullstack</b>. Sou formado em
+          Design Gráfico pela UNIP, em Desenvolvimento de Jogos Digitais pela
+          ETEC e Pós-Graduado em Desenvolvimento Fullstack de Sistemas Modernos
+          para Nuvem pela UNESC. Apaixonado por tecnologia, atuo na produção de
+          sites, E-commerce com Salesforce Commerce Cloud (SFCC), desenvolvendo
+          para clientes como Tramontina, Fini, São Vicente, Copercana e Oi
+          Place. Além disso, tenho experiência em WordPress, SEO, aplicativos,
+          PWA e jogos digitais, utilizando metodologias ágeis como Scrum e
+          Kanban. Trabalho também com Salesforce Apex e Lightning Web Components
+          (LWC), desenvolvendo soluções inovadoras na plataforma.
         </p>
-        {/* <button onClick={this.handleClick}>
-          {this.state.isToggleOn ? "Bio in english" : "Mudar para Português"}
-        </button> */}
 
         <Badge />
 

@@ -23,7 +23,7 @@ export default function Resume() {
           <path d="M11 12.5a1.5 1.5 0 0 0 -3 0v3a1.5 1.5 0 0 0 3 0" />
           <path d="M13 11l1.5 6l1.5 -6" />
         </svg>{" "}
-        Currículo e teste
+        Currículo
       </h2>
       <div className="flex flex-between flex-wrap">
         <div className="flex btns-resume">

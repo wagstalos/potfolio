@@ -5,22 +5,22 @@ import imageAvatar from "../../img/avatarSF.png";
 export default function Experience() {
   const items = [
     {
-      title: "Jun 2023",
-      cardTitle: "Frontend SFCC - Sênior",
+      title: "Jun 23 - Out 24",
+      cardTitle: "Frontend SFCC Sr",
       cardSubtitle: "(Backlgrs)",
       cardDetailedText:
         "Desenvolvimento de lojas digitais e sustentação utilizando Salesforce Commerce Cloud (SFCC), com expertise em ISML. Desenvolvimento de componentes no Page Designer, incluindo páginas de detalhes de produtos (Product Detail Page), listagem de produtos (Page List Product), ativos de conteúdo (content assets), aplicação de SASS, implementação de scripts em JavaScript e jQuery. Contribuí ativamente no tagueamento para e-commerce (GA4) atuei como Tech Lead, seguindo sempre as metodologias ágeis Kanban e Scrum.",
     },
     {
       title: "Jan 2023",
-      cardTitle: "Frontend SFCC - Sênior",
+      cardTitle: "Analista de sistemas Salesforce Sr",
       cardSubtitle: "(IBM)",
       cardDetailedText:
         "Desenvolvimento de lojas digitais com Salesforce commerce cloud SFCC, usando ISML, criando componentes Page designer (Page Design), Product Detail Page, Page List Product, content assets, SASS, javascript, jquery e ajudei no tagueamento para e-commerce (GA4) e semore utilizando metodologias Agéis Kanban e Scrum. Go Live: Oi Place.",
     },
     {
       title: "Out 2021",
-      cardTitle: "Software Engineer Frontend - Pleno",
+      cardTitle: "Software Engineer - Pleno",
       cardSubtitle: "(Salesforce)",
       cardDetailedText:
         "Desenvolvimento E-Commerce Commerce Cloud com o Salesforce (SFCC),VueJS, SASS,Emails Marketing ISML E Javascript utilizando metodologias Agéis Kanban e Scrum. Desenvolvemos lojas para clientes como : Tramontina, Copercana, Fini e Bold.",
@@ -73,14 +73,15 @@ export default function Experience() {
         <div className="experience-text">
           <h2>Carreira</h2>
           <p>
-            Atuação em projetos web, trabalhando no desenvolvimento de Landing
-            Pages, PWAs, Wordpress, SFCC (Salesforce Commerce Cloud), sites
-            corporativos, e-mails de marketing e Blogs. Durante esse período,
-            utilizei metodologias ágeis, como Scrum e Kanban. No ano de 2021,
-            comecei a trabalhar com <strong>Commerce Cloud</strong> e, em 2022,
-            conquistei o cargo de Engenheiro de Software na{" "}
-            <strong>Salesforce</strong> , em 2023 atuei em umas das maiores
-            empresas do mundo <strong>IBM</strong>.
+            Olá, sou Wagner Paulo, desenvolvedor com ampla experiência em
+            projetos web, atuando no desenvolvimento de Landing Pages, PWAs,
+            WordPress, Salesforce Commerce Cloud (SFCC), sites corporativos,
+            e-mails de marketing e blogs. Em 2021, iniciei minha trajetória com{" "}
+            <b>Salesforce</b> e em 2022, conquistei o cargo de Engenheiro de
+            Software na Salesforce. Em 2023, tive a oportunidade de atuar na{" "}
+            <b>IBM</b> como Senior Developer e na Backlgrs onde fui{" "}
+            <b>Senior Developer e Tech Lead</b> , liderando equipes e
+            impulsionando inovação nos projetos.
           </p>
         </div>
       </div>

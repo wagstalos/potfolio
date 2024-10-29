@@ -41,9 +41,6 @@ button {
 }
 
 h1 {
-  background: -webkit-linear-gradient(rgb(79, 79, 79), #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-weight: 700;
   font-family: 'Ubuntu', sans-serif;
 }
